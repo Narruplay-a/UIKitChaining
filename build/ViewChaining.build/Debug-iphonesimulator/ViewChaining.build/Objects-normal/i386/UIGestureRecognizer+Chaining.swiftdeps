@@ -1,0 +1,227 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UIGestureRecognizerChainingProtocol"
+- "UISwipeGestureRecognizerChainingProtocol"
+- "UITapGestureRecognizerChainingProtocol"
+- "UILongPressGestureRecognizerChainingProtocol"
+provides-nominal:
+- "So19UIGestureRecognizerC"
+- "12ViewChaining019UIGestureRecognizerB8ProtocolP"
+- "So24UISwipeGestureRecognizerC"
+- "12ViewChaining024UISwipeGestureRecognizerB8ProtocolP"
+- "So22UITapGestureRecognizerC"
+- "12ViewChaining022UITapGestureRecognizerB8ProtocolP"
+- "So28UILongPressGestureRecognizerC"
+- "12ViewChaining028UILongPressGestureRecognizerB8ProtocolP"
+provides-member:
+- ["So19UIGestureRecognizerC", ""]
+- ["12ViewChaining019UIGestureRecognizerB8ProtocolP", ""]
+- ["So24UISwipeGestureRecognizerC", ""]
+- ["12ViewChaining024UISwipeGestureRecognizerB8ProtocolP", ""]
+- ["So22UITapGestureRecognizerC", ""]
+- ["12ViewChaining022UITapGestureRecognizerB8ProtocolP", ""]
+- ["So28UILongPressGestureRecognizerC", ""]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", ""]
+- ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "setAction"]
+- ["12ViewChaining024UISwipeGestureRecognizerB8ProtocolP", "direction"]
+- ["12ViewChaining024UISwipeGestureRecognizerB8ProtocolP", "numberOfTouchesRequired"]
+- ["12ViewChaining022UITapGestureRecognizerB8ProtocolP", "numberOfTapsRequired"]
+- ["12ViewChaining022UITapGestureRecognizerB8ProtocolP", "numberOfTouchesRequired"]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", "minimumPressDuration"]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", "allowableMovement"]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", "numberOfTapsRequired"]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", "numberOfTouchesRequired"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGFloat"
+- "CastingPrecedence"
+- "Int"
+- "TimeInterval"
+- !private "TouchAction"
+- "UIGestureRecognizer"
+- "UIGestureRecognizerChainingProtocol"
+- "UILongPressGestureRecognizer"
+- "UILongPressGestureRecognizerChainingProtocol"
+- "UISwipeGestureRecognizer"
+- "UISwipeGestureRecognizerChainingProtocol"
+- "UITapGestureRecognizer"
+- "UITapGestureRecognizerChainingProtocol"
+- "Void"
+depends-member:
+- ["s7CVarArgP", "Direction"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "allowableMovement"]
+- !private ["s7CVarArgP", "direction"]
+- !private ["s7CVarArgP", "minimumPressDuration"]
+- !private ["s7CVarArgP", "numberOfTapsRequired"]
+- !private ["s7CVarArgP", "numberOfTouchesRequired"]
+- !private ["s7CVarArgP", "proceedAction"]
+- !private ["s7CVarArgP", "touchAction"]
+- ["s28CustomDebugStringConvertibleP", "Direction"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "allowableMovement"]
+- !private ["s28CustomDebugStringConvertibleP", "direction"]
+- !private ["s28CustomDebugStringConvertibleP", "minimumPressDuration"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfTapsRequired"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfTouchesRequired"]
+- !private ["s28CustomDebugStringConvertibleP", "proceedAction"]
+- !private ["s28CustomDebugStringConvertibleP", "touchAction"]
+- ["s23CustomStringConvertibleP", "Direction"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "allowableMovement"]
+- !private ["s23CustomStringConvertibleP", "direction"]
+- !private ["s23CustomStringConvertibleP", "minimumPressDuration"]
+- !private ["s23CustomStringConvertibleP", "numberOfTapsRequired"]
+- !private ["s23CustomStringConvertibleP", "numberOfTouchesRequired"]
+- !private ["s23CustomStringConvertibleP", "proceedAction"]
+- !private ["s23CustomStringConvertibleP", "touchAction"]
+- ["SQ", "Direction"]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "allowableMovement"]
+- !private ["SQ", "direction"]
+- !private ["SQ", "minimumPressDuration"]
+- !private ["SQ", "numberOfTapsRequired"]
+- !private ["SQ", "numberOfTouchesRequired"]
+- !private ["SQ", "proceedAction"]
+- !private ["SQ", "touchAction"]
+- ["SH", "Direction"]
+- !private ["SH", "addTarget"]
+- !private ["SH", "allowableMovement"]
+- !private ["SH", "direction"]
+- !private ["SH", "minimumPressDuration"]
+- !private ["SH", "numberOfTapsRequired"]
+- !private ["SH", "numberOfTouchesRequired"]
+- !private ["SH", "proceedAction"]
+- !private ["SH", "touchAction"]
+- ["So8NSObjectC", "Direction"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "allowableMovement"]
+- !private ["So8NSObjectC", "direction"]
+- !private ["So8NSObjectC", "minimumPressDuration"]
+- !private ["So8NSObjectC", "numberOfTapsRequired"]
+- !private ["So8NSObjectC", "numberOfTouchesRequired"]
+- !private ["So8NSObjectC", "proceedAction"]
+- !private ["So8NSObjectC", "touchAction"]
+- ["So8NSObjectP", "Direction"]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "allowableMovement"]
+- !private ["So8NSObjectP", "direction"]
+- !private ["So8NSObjectP", "minimumPressDuration"]
+- !private ["So8NSObjectP", "numberOfTapsRequired"]
+- !private ["So8NSObjectP", "numberOfTouchesRequired"]
+- !private ["So8NSObjectP", "proceedAction"]
+- !private ["So8NSObjectP", "touchAction"]
+- !private ["12ViewChaining11TouchActionC", "init"]
+- ["So19UIGestureRecognizerC", "Direction"]
+- !private ["So19UIGestureRecognizerC", "addTarget"]
+- !private ["So19UIGestureRecognizerC", "allowableMovement"]
+- ["So19UIGestureRecognizerC", "deinit"]
+- !private ["So19UIGestureRecognizerC", "direction"]
+- !private ["So19UIGestureRecognizerC", "minimumPressDuration"]
+- !private ["So19UIGestureRecognizerC", "numberOfTapsRequired"]
+- !private ["So19UIGestureRecognizerC", "numberOfTouchesRequired"]
+- !private ["So19UIGestureRecognizerC", "proceedAction"]
+- !private ["So19UIGestureRecognizerC", "touchAction"]
+- ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "Direction"]
+- !private ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "TouchAction"]
+- !private ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "UIGestureRecognizer"]
+- ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "Void"]
+- ["12ViewChaining019UIGestureRecognizerB8ProtocolP", ""]
+- !private ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "addTarget"]
+- !private ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "allowableMovement"]
+- !private ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "direction"]
+- !private ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "minimumPressDuration"]
+- !private ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "numberOfTapsRequired"]
+- !private ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "numberOfTouchesRequired"]
+- !private ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "proceedAction"]
+- ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "setAction"]
+- !private ["12ViewChaining019UIGestureRecognizerB8ProtocolP", "touchAction"]
+- !private ["So28UILongPressGestureRecognizerC", "allowableMovement"]
+- ["So28UILongPressGestureRecognizerC", "deinit"]
+- !private ["So28UILongPressGestureRecognizerC", "minimumPressDuration"]
+- !private ["So28UILongPressGestureRecognizerC", "numberOfTapsRequired"]
+- !private ["So28UILongPressGestureRecognizerC", "numberOfTouchesRequired"]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", "CGFloat"]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", "Int"]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", "TimeInterval"]
+- !private ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", "UILongPressGestureRecognizer"]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", ""]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", "allowableMovement"]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", "minimumPressDuration"]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", "numberOfTapsRequired"]
+- ["12ViewChaining028UILongPressGestureRecognizerB8ProtocolP", "numberOfTouchesRequired"]
+- ["So24UISwipeGestureRecognizerC", "Direction"]
+- ["So24UISwipeGestureRecognizerC", "deinit"]
+- !private ["So24UISwipeGestureRecognizerC", "direction"]
+- !private ["So24UISwipeGestureRecognizerC", "numberOfTouchesRequired"]
+- ["12ViewChaining024UISwipeGestureRecognizerB8ProtocolP", "Direction"]
+- ["12ViewChaining024UISwipeGestureRecognizerB8ProtocolP", "Int"]
+- ["12ViewChaining024UISwipeGestureRecognizerB8ProtocolP", "UISwipeGestureRecognizer"]
+- ["12ViewChaining024UISwipeGestureRecognizerB8ProtocolP", ""]
+- ["12ViewChaining024UISwipeGestureRecognizerB8ProtocolP", "direction"]
+- ["12ViewChaining024UISwipeGestureRecognizerB8ProtocolP", "numberOfTouchesRequired"]
+- ["So22UITapGestureRecognizerC", "deinit"]
+- !private ["So22UITapGestureRecognizerC", "numberOfTapsRequired"]
+- !private ["So22UITapGestureRecognizerC", "numberOfTouchesRequired"]
+- ["12ViewChaining022UITapGestureRecognizerB8ProtocolP", "Int"]
+- !private ["12ViewChaining022UITapGestureRecognizerB8ProtocolP", "UITapGestureRecognizer"]
+- ["12ViewChaining022UITapGestureRecognizerB8ProtocolP", ""]
+- ["12ViewChaining022UITapGestureRecognizerB8ProtocolP", "numberOfTapsRequired"]
+- ["12ViewChaining022UITapGestureRecognizerB8ProtocolP", "numberOfTouchesRequired"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Direction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allowableMovement"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "direction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minimumPressDuration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfTapsRequired"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfTouchesRequired"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "proceedAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchAction"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "12ViewChaining11TouchActionC"
+- "So19UIGestureRecognizerC"
+- "12ViewChaining019UIGestureRecognizerB8ProtocolP"
+- "So28UILongPressGestureRecognizerC"
+- "12ViewChaining028UILongPressGestureRecognizerB8ProtocolP"
+- "So24UISwipeGestureRecognizerC"
+- "12ViewChaining024UISwipeGestureRecognizerB8ProtocolP"
+- "So22UITapGestureRecognizerC"
+- "12ViewChaining022UITapGestureRecognizerB8ProtocolP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/ViewChaining/ViewChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/build/ViewChaining.build/Debug-iphonesimulator/ViewChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "485f3bbbb13e2afd0bf9b0c663a8e51f"

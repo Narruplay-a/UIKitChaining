@@ -1,0 +1,10 @@
+framework module ViewChaining {
+  umbrella header "ViewChaining.h"
+
+  export *
+  module * { export * }
+}
+
+module ViewChaining.__Swift {
+    exclude header "ViewChaining-Swift.h"
+}

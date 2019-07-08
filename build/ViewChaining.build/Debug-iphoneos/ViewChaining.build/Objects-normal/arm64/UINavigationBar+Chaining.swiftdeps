@@ -1,0 +1,238 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UINavigationBarChaining"
+provides-nominal:
+- "So15UINavigationBarC"
+- "12ViewChaining015UINavigationBarB0P"
+provides-member:
+- ["So15UINavigationBarC", ""]
+- ["12ViewChaining015UINavigationBarB0P", ""]
+- ["12ViewChaining015UINavigationBarB0P", "barStyle"]
+- ["12ViewChaining015UINavigationBarB0P", "barTintColor"]
+- ["12ViewChaining015UINavigationBarB0P", "isTranslucent"]
+- ["12ViewChaining015UINavigationBarB0P", "shadowImage"]
+- ["12ViewChaining015UINavigationBarB0P", "items"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "UIBarStyle"
+- "UIColor"
+- "UIImage"
+- "UINavigationBar"
+- "UINavigationBarChaining"
+- "UINavigationItem"
+depends-member:
+- !private ["So15CALayerDelegateP", "barStyle"]
+- !private ["So15CALayerDelegateP", "barTintColor"]
+- !private ["So15CALayerDelegateP", "isTranslucent"]
+- !private ["So15CALayerDelegateP", "items"]
+- !private ["So15CALayerDelegateP", "shadowImage"]
+- !private ["s7CVarArgP", "barStyle"]
+- !private ["s7CVarArgP", "barTintColor"]
+- !private ["s7CVarArgP", "isTranslucent"]
+- !private ["s7CVarArgP", "items"]
+- !private ["s7CVarArgP", "shadowImage"]
+- !private ["s28CustomDebugStringConvertibleP", "barStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "barTintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "isTranslucent"]
+- !private ["s28CustomDebugStringConvertibleP", "items"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowImage"]
+- !private ["s23CustomStringConvertibleP", "barStyle"]
+- !private ["s23CustomStringConvertibleP", "barTintColor"]
+- !private ["s23CustomStringConvertibleP", "isTranslucent"]
+- !private ["s23CustomStringConvertibleP", "items"]
+- !private ["s23CustomStringConvertibleP", "shadowImage"]
+- !private ["SQ", "barStyle"]
+- !private ["SQ", "barTintColor"]
+- !private ["SQ", "isTranslucent"]
+- !private ["SQ", "items"]
+- !private ["SQ", "shadowImage"]
+- !private ["SH", "barStyle"]
+- !private ["SH", "barTintColor"]
+- !private ["SH", "isTranslucent"]
+- !private ["SH", "items"]
+- !private ["SH", "shadowImage"]
+- !private ["So8NSCodingP", "barStyle"]
+- !private ["So8NSCodingP", "barTintColor"]
+- !private ["So8NSCodingP", "isTranslucent"]
+- !private ["So8NSCodingP", "items"]
+- !private ["So8NSCodingP", "shadowImage"]
+- !private ["So8NSObjectC", "barStyle"]
+- !private ["So8NSObjectC", "barTintColor"]
+- !private ["So8NSObjectC", "isTranslucent"]
+- !private ["So8NSObjectC", "items"]
+- !private ["So8NSObjectC", "shadowImage"]
+- !private ["So8NSObjectP", "barStyle"]
+- !private ["So8NSObjectP", "barTintColor"]
+- !private ["So8NSObjectP", "isTranslucent"]
+- !private ["So8NSObjectP", "items"]
+- !private ["So8NSObjectP", "shadowImage"]
+- !private ["So29UIAccessibilityIdentificationP", "barStyle"]
+- !private ["So29UIAccessibilityIdentificationP", "barTintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "isTranslucent"]
+- !private ["So29UIAccessibilityIdentificationP", "items"]
+- !private ["So29UIAccessibilityIdentificationP", "shadowImage"]
+- !private ["So12UIAppearanceP", "barStyle"]
+- !private ["So12UIAppearanceP", "barTintColor"]
+- !private ["So12UIAppearanceP", "isTranslucent"]
+- !private ["So12UIAppearanceP", "items"]
+- !private ["So12UIAppearanceP", "shadowImage"]
+- !private ["So21UIAppearanceContainerP", "barStyle"]
+- !private ["So21UIAppearanceContainerP", "barTintColor"]
+- !private ["So21UIAppearanceContainerP", "isTranslucent"]
+- !private ["So21UIAppearanceContainerP", "items"]
+- !private ["So21UIAppearanceContainerP", "shadowImage"]
+- !private ["So16UIBarPositioningP", "barStyle"]
+- !private ["So16UIBarPositioningP", "barTintColor"]
+- !private ["So16UIBarPositioningP", "isTranslucent"]
+- !private ["So16UIBarPositioningP", "items"]
+- !private ["So16UIBarPositioningP", "shadowImage"]
+- !private ["So17UICoordinateSpaceP", "barStyle"]
+- !private ["So17UICoordinateSpaceP", "barTintColor"]
+- !private ["So17UICoordinateSpaceP", "isTranslucent"]
+- !private ["So17UICoordinateSpaceP", "items"]
+- !private ["So17UICoordinateSpaceP", "shadowImage"]
+- !private ["So13UIDynamicItemP", "barStyle"]
+- !private ["So13UIDynamicItemP", "barTintColor"]
+- !private ["So13UIDynamicItemP", "isTranslucent"]
+- !private ["So13UIDynamicItemP", "items"]
+- !private ["So13UIDynamicItemP", "shadowImage"]
+- !private ["So18UIFocusEnvironmentP", "barStyle"]
+- !private ["So18UIFocusEnvironmentP", "barTintColor"]
+- !private ["So18UIFocusEnvironmentP", "isTranslucent"]
+- !private ["So18UIFocusEnvironmentP", "items"]
+- !private ["So18UIFocusEnvironmentP", "shadowImage"]
+- !private ["So11UIFocusItemP", "barStyle"]
+- !private ["So11UIFocusItemP", "barTintColor"]
+- !private ["So11UIFocusItemP", "isTranslucent"]
+- !private ["So11UIFocusItemP", "items"]
+- !private ["So11UIFocusItemP", "shadowImage"]
+- !private ["So20UIFocusItemContainerP", "barStyle"]
+- !private ["So20UIFocusItemContainerP", "barTintColor"]
+- !private ["So20UIFocusItemContainerP", "isTranslucent"]
+- !private ["So20UIFocusItemContainerP", "items"]
+- !private ["So20UIFocusItemContainerP", "shadowImage"]
+- !private ["So15UINavigationBarC", "barStyle"]
+- !private ["So15UINavigationBarC", "barTintColor"]
+- ["So15UINavigationBarC", "deinit"]
+- !private ["So15UINavigationBarC", "isTranslucent"]
+- !private ["So15UINavigationBarC", "items"]
+- !private ["So15UINavigationBarC", "shadowImage"]
+- ["12ViewChaining015UINavigationBarB0P", "Bool"]
+- ["12ViewChaining015UINavigationBarB0P", "UIBarStyle"]
+- ["12ViewChaining015UINavigationBarB0P", "UIColor"]
+- ["12ViewChaining015UINavigationBarB0P", "UIImage"]
+- !private ["12ViewChaining015UINavigationBarB0P", "UINavigationBar"]
+- ["12ViewChaining015UINavigationBarB0P", "UINavigationItem"]
+- ["12ViewChaining015UINavigationBarB0P", ""]
+- ["12ViewChaining015UINavigationBarB0P", "barStyle"]
+- ["12ViewChaining015UINavigationBarB0P", "barTintColor"]
+- ["12ViewChaining015UINavigationBarB0P", "isTranslucent"]
+- ["12ViewChaining015UINavigationBarB0P", "items"]
+- ["12ViewChaining015UINavigationBarB0P", "shadowImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "barStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "barTintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "isTranslucent"]
+- !private ["So30UIPasteConfigurationSupportingP", "items"]
+- !private ["So30UIPasteConfigurationSupportingP", "shadowImage"]
+- !private ["So11UIResponderC", "barStyle"]
+- !private ["So11UIResponderC", "barTintColor"]
+- !private ["So11UIResponderC", "isTranslucent"]
+- !private ["So11UIResponderC", "items"]
+- !private ["So11UIResponderC", "shadowImage"]
+- !private ["So30UIResponderStandardEditActionsP", "barStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "barTintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "isTranslucent"]
+- !private ["So30UIResponderStandardEditActionsP", "items"]
+- !private ["So30UIResponderStandardEditActionsP", "shadowImage"]
+- !private ["So18UITraitEnvironmentP", "barStyle"]
+- !private ["So18UITraitEnvironmentP", "barTintColor"]
+- !private ["So18UITraitEnvironmentP", "isTranslucent"]
+- !private ["So18UITraitEnvironmentP", "items"]
+- !private ["So18UITraitEnvironmentP", "shadowImage"]
+- !private ["So23UIUserActivityRestoringP", "barStyle"]
+- !private ["So23UIUserActivityRestoringP", "barTintColor"]
+- !private ["So23UIUserActivityRestoringP", "isTranslucent"]
+- !private ["So23UIUserActivityRestoringP", "items"]
+- !private ["So23UIUserActivityRestoringP", "shadowImage"]
+- !private ["So6UIViewC", "barStyle"]
+- !private ["So6UIViewC", "barTintColor"]
+- !private ["So6UIViewC", "isTranslucent"]
+- !private ["So6UIViewC", "items"]
+- !private ["So6UIViewC", "shadowImage"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "barStyle"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "barTintColor"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "isTranslucent"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "items"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "shadowImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barTintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isTranslucent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "items"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "barStyle"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "barTintColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isTranslucent"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "items"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "shadowImage"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UIBarPositioningP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- "So15UINavigationBarC"
+- "12ViewChaining015UINavigationBarB0P"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "12ViewChaining06UIViewB8ProtocolP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/ViewChaining/ViewChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/build/ViewChaining.build/Debug-iphoneos/ViewChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a9659da85fd3e6f43aaab1772bad3e91"

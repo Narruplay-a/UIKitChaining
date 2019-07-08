@@ -1,0 +1,324 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UIViewControllerChaining"
+provides-nominal:
+- "So16UIViewControllerC"
+- "12ViewChaining016UIViewControllerB0P"
+provides-member:
+- ["So16UIViewControllerC", ""]
+- ["12ViewChaining016UIViewControllerB0P", ""]
+- ["12ViewChaining016UIViewControllerB0P", "title"]
+- ["12ViewChaining016UIViewControllerB0P", "definesPresentationContext"]
+- ["12ViewChaining016UIViewControllerB0P", "providesPresentationContextTransitionStyle"]
+- ["12ViewChaining016UIViewControllerB0P", "restoresFocusAfterTransition"]
+- ["12ViewChaining016UIViewControllerB0P", "modalTransitionStyle"]
+- ["12ViewChaining016UIViewControllerB0P", "modalPresentationStyle"]
+- ["12ViewChaining016UIViewControllerB0P", "modalPresentationCapturesStatusBarAppearance"]
+- ["12ViewChaining016UIViewControllerB0P", "edgesForExtendedLayout"]
+- ["12ViewChaining016UIViewControllerB0P", "extendedLayoutIncludesOpaqueBars"]
+- ["12ViewChaining016UIViewControllerB0P", "automaticallyAdjustsScrollViewInsets"]
+- ["12ViewChaining016UIViewControllerB0P", "preferredContentSize"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "CGSize"
+- "CastingPrecedence"
+- "String"
+- "UIModalPresentationStyle"
+- "UIModalTransitionStyle"
+- "UIRectEdge"
+- "UIViewController"
+- "UIViewControllerChaining"
+depends-member:
+- !private ["s7CVarArgP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["s7CVarArgP", "definesPresentationContext"]
+- !private ["s7CVarArgP", "edgesForExtendedLayout"]
+- !private ["s7CVarArgP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["s7CVarArgP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["s7CVarArgP", "modalPresentationStyle"]
+- !private ["s7CVarArgP", "modalTransitionStyle"]
+- !private ["s7CVarArgP", "preferredContentSize"]
+- !private ["s7CVarArgP", "providesPresentationContextTransitionStyle"]
+- !private ["s7CVarArgP", "restoresFocusAfterTransition"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["s28CustomDebugStringConvertibleP", "definesPresentationContext"]
+- !private ["s28CustomDebugStringConvertibleP", "edgesForExtendedLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["s28CustomDebugStringConvertibleP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["s28CustomDebugStringConvertibleP", "modalPresentationStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "modalTransitionStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "preferredContentSize"]
+- !private ["s28CustomDebugStringConvertibleP", "providesPresentationContextTransitionStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "restoresFocusAfterTransition"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["s23CustomStringConvertibleP", "definesPresentationContext"]
+- !private ["s23CustomStringConvertibleP", "edgesForExtendedLayout"]
+- !private ["s23CustomStringConvertibleP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["s23CustomStringConvertibleP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["s23CustomStringConvertibleP", "modalPresentationStyle"]
+- !private ["s23CustomStringConvertibleP", "modalTransitionStyle"]
+- !private ["s23CustomStringConvertibleP", "preferredContentSize"]
+- !private ["s23CustomStringConvertibleP", "providesPresentationContextTransitionStyle"]
+- !private ["s23CustomStringConvertibleP", "restoresFocusAfterTransition"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["SQ", "automaticallyAdjustsScrollViewInsets"]
+- !private ["SQ", "definesPresentationContext"]
+- !private ["SQ", "edgesForExtendedLayout"]
+- !private ["SQ", "extendedLayoutIncludesOpaqueBars"]
+- !private ["SQ", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["SQ", "modalPresentationStyle"]
+- !private ["SQ", "modalTransitionStyle"]
+- !private ["SQ", "preferredContentSize"]
+- !private ["SQ", "providesPresentationContextTransitionStyle"]
+- !private ["SQ", "restoresFocusAfterTransition"]
+- !private ["SQ", "title"]
+- !private ["SH", "automaticallyAdjustsScrollViewInsets"]
+- !private ["SH", "definesPresentationContext"]
+- !private ["SH", "edgesForExtendedLayout"]
+- !private ["SH", "extendedLayoutIncludesOpaqueBars"]
+- !private ["SH", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["SH", "modalPresentationStyle"]
+- !private ["SH", "modalTransitionStyle"]
+- !private ["SH", "preferredContentSize"]
+- !private ["SH", "providesPresentationContextTransitionStyle"]
+- !private ["SH", "restoresFocusAfterTransition"]
+- !private ["SH", "title"]
+- !private ["So8NSCodingP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So8NSCodingP", "definesPresentationContext"]
+- !private ["So8NSCodingP", "edgesForExtendedLayout"]
+- !private ["So8NSCodingP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So8NSCodingP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So8NSCodingP", "modalPresentationStyle"]
+- !private ["So8NSCodingP", "modalTransitionStyle"]
+- !private ["So8NSCodingP", "preferredContentSize"]
+- !private ["So8NSCodingP", "providesPresentationContextTransitionStyle"]
+- !private ["So8NSCodingP", "restoresFocusAfterTransition"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So26NSExtensionRequestHandlingP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So26NSExtensionRequestHandlingP", "definesPresentationContext"]
+- !private ["So26NSExtensionRequestHandlingP", "edgesForExtendedLayout"]
+- !private ["So26NSExtensionRequestHandlingP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So26NSExtensionRequestHandlingP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So26NSExtensionRequestHandlingP", "modalPresentationStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "modalTransitionStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "preferredContentSize"]
+- !private ["So26NSExtensionRequestHandlingP", "providesPresentationContextTransitionStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "restoresFocusAfterTransition"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- !private ["So8NSObjectC", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So8NSObjectC", "definesPresentationContext"]
+- !private ["So8NSObjectC", "edgesForExtendedLayout"]
+- !private ["So8NSObjectC", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So8NSObjectC", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So8NSObjectC", "modalPresentationStyle"]
+- !private ["So8NSObjectC", "modalTransitionStyle"]
+- !private ["So8NSObjectC", "preferredContentSize"]
+- !private ["So8NSObjectC", "providesPresentationContextTransitionStyle"]
+- !private ["So8NSObjectC", "restoresFocusAfterTransition"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So8NSObjectP", "definesPresentationContext"]
+- !private ["So8NSObjectP", "edgesForExtendedLayout"]
+- !private ["So8NSObjectP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So8NSObjectP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So8NSObjectP", "modalPresentationStyle"]
+- !private ["So8NSObjectP", "modalTransitionStyle"]
+- !private ["So8NSObjectP", "preferredContentSize"]
+- !private ["So8NSObjectP", "providesPresentationContextTransitionStyle"]
+- !private ["So8NSObjectP", "restoresFocusAfterTransition"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So21UIAppearanceContainerP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So21UIAppearanceContainerP", "definesPresentationContext"]
+- !private ["So21UIAppearanceContainerP", "edgesForExtendedLayout"]
+- !private ["So21UIAppearanceContainerP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So21UIAppearanceContainerP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So21UIAppearanceContainerP", "modalPresentationStyle"]
+- !private ["So21UIAppearanceContainerP", "modalTransitionStyle"]
+- !private ["So21UIAppearanceContainerP", "preferredContentSize"]
+- !private ["So21UIAppearanceContainerP", "providesPresentationContextTransitionStyle"]
+- !private ["So21UIAppearanceContainerP", "restoresFocusAfterTransition"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So18UIContentContainerP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So18UIContentContainerP", "definesPresentationContext"]
+- !private ["So18UIContentContainerP", "edgesForExtendedLayout"]
+- !private ["So18UIContentContainerP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So18UIContentContainerP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So18UIContentContainerP", "modalPresentationStyle"]
+- !private ["So18UIContentContainerP", "modalTransitionStyle"]
+- !private ["So18UIContentContainerP", "preferredContentSize"]
+- !private ["So18UIContentContainerP", "providesPresentationContextTransitionStyle"]
+- !private ["So18UIContentContainerP", "restoresFocusAfterTransition"]
+- !private ["So18UIContentContainerP", "title"]
+- !private ["So18UIFocusEnvironmentP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So18UIFocusEnvironmentP", "definesPresentationContext"]
+- !private ["So18UIFocusEnvironmentP", "edgesForExtendedLayout"]
+- !private ["So18UIFocusEnvironmentP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So18UIFocusEnvironmentP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So18UIFocusEnvironmentP", "modalPresentationStyle"]
+- !private ["So18UIFocusEnvironmentP", "modalTransitionStyle"]
+- !private ["So18UIFocusEnvironmentP", "preferredContentSize"]
+- !private ["So18UIFocusEnvironmentP", "providesPresentationContextTransitionStyle"]
+- !private ["So18UIFocusEnvironmentP", "restoresFocusAfterTransition"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So30UIPasteConfigurationSupportingP", "definesPresentationContext"]
+- !private ["So30UIPasteConfigurationSupportingP", "edgesForExtendedLayout"]
+- !private ["So30UIPasteConfigurationSupportingP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So30UIPasteConfigurationSupportingP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So30UIPasteConfigurationSupportingP", "modalPresentationStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "modalTransitionStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "preferredContentSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "providesPresentationContextTransitionStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "restoresFocusAfterTransition"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So11UIResponderC", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So11UIResponderC", "definesPresentationContext"]
+- !private ["So11UIResponderC", "edgesForExtendedLayout"]
+- !private ["So11UIResponderC", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So11UIResponderC", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So11UIResponderC", "modalPresentationStyle"]
+- !private ["So11UIResponderC", "modalTransitionStyle"]
+- !private ["So11UIResponderC", "preferredContentSize"]
+- !private ["So11UIResponderC", "providesPresentationContextTransitionStyle"]
+- !private ["So11UIResponderC", "restoresFocusAfterTransition"]
+- !private ["So11UIResponderC", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So30UIResponderStandardEditActionsP", "definesPresentationContext"]
+- !private ["So30UIResponderStandardEditActionsP", "edgesForExtendedLayout"]
+- !private ["So30UIResponderStandardEditActionsP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So30UIResponderStandardEditActionsP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So30UIResponderStandardEditActionsP", "modalPresentationStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "modalTransitionStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "preferredContentSize"]
+- !private ["So30UIResponderStandardEditActionsP", "providesPresentationContextTransitionStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "restoresFocusAfterTransition"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So16UIStateRestoringP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So16UIStateRestoringP", "definesPresentationContext"]
+- !private ["So16UIStateRestoringP", "edgesForExtendedLayout"]
+- !private ["So16UIStateRestoringP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So16UIStateRestoringP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So16UIStateRestoringP", "modalPresentationStyle"]
+- !private ["So16UIStateRestoringP", "modalTransitionStyle"]
+- !private ["So16UIStateRestoringP", "preferredContentSize"]
+- !private ["So16UIStateRestoringP", "providesPresentationContextTransitionStyle"]
+- !private ["So16UIStateRestoringP", "restoresFocusAfterTransition"]
+- !private ["So16UIStateRestoringP", "title"]
+- !private ["So18UITraitEnvironmentP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So18UITraitEnvironmentP", "definesPresentationContext"]
+- !private ["So18UITraitEnvironmentP", "edgesForExtendedLayout"]
+- !private ["So18UITraitEnvironmentP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So18UITraitEnvironmentP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So18UITraitEnvironmentP", "modalPresentationStyle"]
+- !private ["So18UITraitEnvironmentP", "modalTransitionStyle"]
+- !private ["So18UITraitEnvironmentP", "preferredContentSize"]
+- !private ["So18UITraitEnvironmentP", "providesPresentationContextTransitionStyle"]
+- !private ["So18UITraitEnvironmentP", "restoresFocusAfterTransition"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So23UIUserActivityRestoringP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So23UIUserActivityRestoringP", "definesPresentationContext"]
+- !private ["So23UIUserActivityRestoringP", "edgesForExtendedLayout"]
+- !private ["So23UIUserActivityRestoringP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So23UIUserActivityRestoringP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So23UIUserActivityRestoringP", "modalPresentationStyle"]
+- !private ["So23UIUserActivityRestoringP", "modalTransitionStyle"]
+- !private ["So23UIUserActivityRestoringP", "preferredContentSize"]
+- !private ["So23UIUserActivityRestoringP", "providesPresentationContextTransitionStyle"]
+- !private ["So23UIUserActivityRestoringP", "restoresFocusAfterTransition"]
+- !private ["So23UIUserActivityRestoringP", "title"]
+- !private ["So16UIViewControllerC", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So16UIViewControllerC", "definesPresentationContext"]
+- ["So16UIViewControllerC", "deinit"]
+- !private ["So16UIViewControllerC", "edgesForExtendedLayout"]
+- !private ["So16UIViewControllerC", "extendedLayoutIncludesOpaqueBars"]
+- !private ["So16UIViewControllerC", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["So16UIViewControllerC", "modalPresentationStyle"]
+- !private ["So16UIViewControllerC", "modalTransitionStyle"]
+- !private ["So16UIViewControllerC", "preferredContentSize"]
+- !private ["So16UIViewControllerC", "providesPresentationContextTransitionStyle"]
+- !private ["So16UIViewControllerC", "restoresFocusAfterTransition"]
+- !private ["So16UIViewControllerC", "title"]
+- ["12ViewChaining016UIViewControllerB0P", "Bool"]
+- ["12ViewChaining016UIViewControllerB0P", "CGSize"]
+- ["12ViewChaining016UIViewControllerB0P", "String"]
+- ["12ViewChaining016UIViewControllerB0P", "UIModalPresentationStyle"]
+- ["12ViewChaining016UIViewControllerB0P", "UIModalTransitionStyle"]
+- ["12ViewChaining016UIViewControllerB0P", "UIRectEdge"]
+- !private ["12ViewChaining016UIViewControllerB0P", "UIViewController"]
+- ["12ViewChaining016UIViewControllerB0P", ""]
+- ["12ViewChaining016UIViewControllerB0P", "automaticallyAdjustsScrollViewInsets"]
+- ["12ViewChaining016UIViewControllerB0P", "definesPresentationContext"]
+- ["12ViewChaining016UIViewControllerB0P", "edgesForExtendedLayout"]
+- ["12ViewChaining016UIViewControllerB0P", "extendedLayoutIncludesOpaqueBars"]
+- ["12ViewChaining016UIViewControllerB0P", "modalPresentationCapturesStatusBarAppearance"]
+- ["12ViewChaining016UIViewControllerB0P", "modalPresentationStyle"]
+- ["12ViewChaining016UIViewControllerB0P", "modalTransitionStyle"]
+- ["12ViewChaining016UIViewControllerB0P", "preferredContentSize"]
+- ["12ViewChaining016UIViewControllerB0P", "providesPresentationContextTransitionStyle"]
+- ["12ViewChaining016UIViewControllerB0P", "restoresFocusAfterTransition"]
+- ["12ViewChaining016UIViewControllerB0P", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "definesPresentationContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "edgesForExtendedLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "extendedLayoutIncludesOpaqueBars"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modalPresentationCapturesStatusBarAppearance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modalPresentationStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modalTransitionStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "preferredContentSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "providesPresentationContextTransitionStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "restoresFocusAfterTransition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "12ViewChaining016UIViewControllerB0P"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/ViewChaining/ViewChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/build/ViewChaining.build/Debug-iphonesimulator/ViewChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9467f2ecd88f78121c405c323443213c"

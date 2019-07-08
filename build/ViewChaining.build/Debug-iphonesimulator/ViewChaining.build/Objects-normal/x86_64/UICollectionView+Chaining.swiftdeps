@@ -1,0 +1,339 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UICollectionViewChaining"
+provides-nominal:
+- "So16UICollectionViewC"
+- "12ViewChaining012UICollectionaB0P"
+provides-member:
+- ["So16UICollectionViewC", ""]
+- ["12ViewChaining012UICollectionaB0P", ""]
+- ["12ViewChaining012UICollectionaB0P", "register"]
+- ["12ViewChaining012UICollectionaB0P", "register"]
+- ["12ViewChaining012UICollectionaB0P", "collectionViewLayout"]
+- ["12ViewChaining012UICollectionaB0P", "allowsSelection"]
+- ["12ViewChaining012UICollectionaB0P", "delegate"]
+- ["12ViewChaining012UICollectionaB0P", "dataSource"]
+- ["12ViewChaining012UICollectionaB0P", "dragDelegate"]
+- ["12ViewChaining012UICollectionaB0P", "dropDelegate"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyClass"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "String"
+- "UICollectionView"
+- "UICollectionViewChaining"
+- "UICollectionViewDataSource"
+- "UICollectionViewDelegate"
+- "UICollectionViewDragDelegate"
+- "UICollectionViewDropDelegate"
+- "UICollectionViewLayout"
+- "UINib"
+depends-member:
+- !private ["So15CALayerDelegateP", "allowsSelection"]
+- !private ["So15CALayerDelegateP", "collectionViewLayout"]
+- !private ["So15CALayerDelegateP", "dataSource"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "dragDelegate"]
+- !private ["So15CALayerDelegateP", "dropDelegate"]
+- !private ["So15CALayerDelegateP", "register"]
+- !private ["s7CVarArgP", "allowsSelection"]
+- !private ["s7CVarArgP", "collectionViewLayout"]
+- !private ["s7CVarArgP", "dataSource"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "dragDelegate"]
+- !private ["s7CVarArgP", "dropDelegate"]
+- !private ["s7CVarArgP", "register"]
+- !private ["s28CustomDebugStringConvertibleP", "allowsSelection"]
+- !private ["s28CustomDebugStringConvertibleP", "collectionViewLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "dragDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "dropDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "allowsSelection"]
+- !private ["s23CustomStringConvertibleP", "collectionViewLayout"]
+- !private ["s23CustomStringConvertibleP", "dataSource"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "dragDelegate"]
+- !private ["s23CustomStringConvertibleP", "dropDelegate"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["SQ", "allowsSelection"]
+- !private ["SQ", "collectionViewLayout"]
+- !private ["SQ", "dataSource"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "dragDelegate"]
+- !private ["SQ", "dropDelegate"]
+- !private ["SQ", "register"]
+- !private ["SH", "allowsSelection"]
+- !private ["SH", "collectionViewLayout"]
+- !private ["SH", "dataSource"]
+- !private ["SH", "delegate"]
+- !private ["SH", "dragDelegate"]
+- !private ["SH", "dropDelegate"]
+- !private ["SH", "register"]
+- !private ["So8NSCodingP", "allowsSelection"]
+- !private ["So8NSCodingP", "collectionViewLayout"]
+- !private ["So8NSCodingP", "dataSource"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "dragDelegate"]
+- !private ["So8NSCodingP", "dropDelegate"]
+- !private ["So8NSCodingP", "register"]
+- !private ["So8NSObjectC", "allowsSelection"]
+- !private ["So8NSObjectC", "collectionViewLayout"]
+- !private ["So8NSObjectC", "dataSource"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "dragDelegate"]
+- !private ["So8NSObjectC", "dropDelegate"]
+- !private ["So8NSObjectC", "register"]
+- !private ["So8NSObjectP", "allowsSelection"]
+- !private ["So8NSObjectP", "collectionViewLayout"]
+- !private ["So8NSObjectP", "dataSource"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "dragDelegate"]
+- !private ["So8NSObjectP", "dropDelegate"]
+- !private ["So8NSObjectP", "register"]
+- !private ["So29UIAccessibilityIdentificationP", "allowsSelection"]
+- !private ["So29UIAccessibilityIdentificationP", "collectionViewLayout"]
+- !private ["So29UIAccessibilityIdentificationP", "dataSource"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "dragDelegate"]
+- !private ["So29UIAccessibilityIdentificationP", "dropDelegate"]
+- !private ["So29UIAccessibilityIdentificationP", "register"]
+- !private ["So12UIAppearanceP", "allowsSelection"]
+- !private ["So12UIAppearanceP", "collectionViewLayout"]
+- !private ["So12UIAppearanceP", "dataSource"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "dragDelegate"]
+- !private ["So12UIAppearanceP", "dropDelegate"]
+- !private ["So12UIAppearanceP", "register"]
+- !private ["So21UIAppearanceContainerP", "allowsSelection"]
+- !private ["So21UIAppearanceContainerP", "collectionViewLayout"]
+- !private ["So21UIAppearanceContainerP", "dataSource"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "dragDelegate"]
+- !private ["So21UIAppearanceContainerP", "dropDelegate"]
+- !private ["So21UIAppearanceContainerP", "register"]
+- !private ["So16UICollectionViewC", "allowsSelection"]
+- !private ["So16UICollectionViewC", "collectionViewLayout"]
+- !private ["So16UICollectionViewC", "dataSource"]
+- ["So16UICollectionViewC", "deinit"]
+- !private ["So16UICollectionViewC", "delegate"]
+- !private ["So16UICollectionViewC", "dragDelegate"]
+- !private ["So16UICollectionViewC", "dropDelegate"]
+- !private ["So16UICollectionViewC", "register"]
+- ["12ViewChaining012UICollectionaB0P", "AnyClass"]
+- ["12ViewChaining012UICollectionaB0P", "Bool"]
+- ["12ViewChaining012UICollectionaB0P", "String"]
+- !private ["12ViewChaining012UICollectionaB0P", "UICollectionView"]
+- ["12ViewChaining012UICollectionaB0P", "UICollectionViewDataSource"]
+- ["12ViewChaining012UICollectionaB0P", "UICollectionViewDelegate"]
+- ["12ViewChaining012UICollectionaB0P", "UICollectionViewDragDelegate"]
+- ["12ViewChaining012UICollectionaB0P", "UICollectionViewDropDelegate"]
+- ["12ViewChaining012UICollectionaB0P", "UICollectionViewLayout"]
+- ["12ViewChaining012UICollectionaB0P", "UINib"]
+- ["12ViewChaining012UICollectionaB0P", ""]
+- ["12ViewChaining012UICollectionaB0P", "allowsSelection"]
+- ["12ViewChaining012UICollectionaB0P", "collectionViewLayout"]
+- ["12ViewChaining012UICollectionaB0P", "dataSource"]
+- ["12ViewChaining012UICollectionaB0P", "delegate"]
+- ["12ViewChaining012UICollectionaB0P", "dragDelegate"]
+- ["12ViewChaining012UICollectionaB0P", "dropDelegate"]
+- ["12ViewChaining012UICollectionaB0P", "register"]
+- !private ["So17UICoordinateSpaceP", "allowsSelection"]
+- !private ["So17UICoordinateSpaceP", "collectionViewLayout"]
+- !private ["So17UICoordinateSpaceP", "dataSource"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "dragDelegate"]
+- !private ["So17UICoordinateSpaceP", "dropDelegate"]
+- !private ["So17UICoordinateSpaceP", "register"]
+- !private ["So23UIDataSourceTranslatingP", "allowsSelection"]
+- !private ["So23UIDataSourceTranslatingP", "collectionViewLayout"]
+- !private ["So23UIDataSourceTranslatingP", "dataSource"]
+- !private ["So23UIDataSourceTranslatingP", "delegate"]
+- !private ["So23UIDataSourceTranslatingP", "dragDelegate"]
+- !private ["So23UIDataSourceTranslatingP", "dropDelegate"]
+- !private ["So23UIDataSourceTranslatingP", "register"]
+- !private ["So13UIDynamicItemP", "allowsSelection"]
+- !private ["So13UIDynamicItemP", "collectionViewLayout"]
+- !private ["So13UIDynamicItemP", "dataSource"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "dragDelegate"]
+- !private ["So13UIDynamicItemP", "dropDelegate"]
+- !private ["So13UIDynamicItemP", "register"]
+- !private ["So18UIFocusEnvironmentP", "allowsSelection"]
+- !private ["So18UIFocusEnvironmentP", "collectionViewLayout"]
+- !private ["So18UIFocusEnvironmentP", "dataSource"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "dragDelegate"]
+- !private ["So18UIFocusEnvironmentP", "dropDelegate"]
+- !private ["So18UIFocusEnvironmentP", "register"]
+- !private ["So11UIFocusItemP", "allowsSelection"]
+- !private ["So11UIFocusItemP", "collectionViewLayout"]
+- !private ["So11UIFocusItemP", "dataSource"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "dragDelegate"]
+- !private ["So11UIFocusItemP", "dropDelegate"]
+- !private ["So11UIFocusItemP", "register"]
+- !private ["So20UIFocusItemContainerP", "allowsSelection"]
+- !private ["So20UIFocusItemContainerP", "collectionViewLayout"]
+- !private ["So20UIFocusItemContainerP", "dataSource"]
+- !private ["So20UIFocusItemContainerP", "delegate"]
+- !private ["So20UIFocusItemContainerP", "dragDelegate"]
+- !private ["So20UIFocusItemContainerP", "dropDelegate"]
+- !private ["So20UIFocusItemContainerP", "register"]
+- !private ["So30UIFocusItemScrollableContainerP", "allowsSelection"]
+- !private ["So30UIFocusItemScrollableContainerP", "collectionViewLayout"]
+- !private ["So30UIFocusItemScrollableContainerP", "dataSource"]
+- !private ["So30UIFocusItemScrollableContainerP", "delegate"]
+- !private ["So30UIFocusItemScrollableContainerP", "dragDelegate"]
+- !private ["So30UIFocusItemScrollableContainerP", "dropDelegate"]
+- !private ["So30UIFocusItemScrollableContainerP", "register"]
+- !private ["So30UIPasteConfigurationSupportingP", "allowsSelection"]
+- !private ["So30UIPasteConfigurationSupportingP", "collectionViewLayout"]
+- !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "dragDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "dropDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "register"]
+- !private ["So11UIResponderC", "allowsSelection"]
+- !private ["So11UIResponderC", "collectionViewLayout"]
+- !private ["So11UIResponderC", "dataSource"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "dragDelegate"]
+- !private ["So11UIResponderC", "dropDelegate"]
+- !private ["So11UIResponderC", "register"]
+- !private ["So30UIResponderStandardEditActionsP", "allowsSelection"]
+- !private ["So30UIResponderStandardEditActionsP", "collectionViewLayout"]
+- !private ["So30UIResponderStandardEditActionsP", "dataSource"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "dragDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "dropDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "register"]
+- !private ["So12UIScrollViewC", "allowsSelection"]
+- !private ["So12UIScrollViewC", "collectionViewLayout"]
+- !private ["So12UIScrollViewC", "dataSource"]
+- !private ["So12UIScrollViewC", "delegate"]
+- !private ["So12UIScrollViewC", "dragDelegate"]
+- !private ["So12UIScrollViewC", "dropDelegate"]
+- !private ["So12UIScrollViewC", "register"]
+- !private ["12ViewChaining08UIScrollaB8ProtocolP", "allowsSelection"]
+- !private ["12ViewChaining08UIScrollaB8ProtocolP", "collectionViewLayout"]
+- !private ["12ViewChaining08UIScrollaB8ProtocolP", "dataSource"]
+- !private ["12ViewChaining08UIScrollaB8ProtocolP", "delegate"]
+- !private ["12ViewChaining08UIScrollaB8ProtocolP", "dragDelegate"]
+- !private ["12ViewChaining08UIScrollaB8ProtocolP", "dropDelegate"]
+- !private ["12ViewChaining08UIScrollaB8ProtocolP", "register"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "allowsSelection"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "collectionViewLayout"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dataSource"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "delegate"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dragDelegate"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dropDelegate"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "register"]
+- !private ["So18UITraitEnvironmentP", "allowsSelection"]
+- !private ["So18UITraitEnvironmentP", "collectionViewLayout"]
+- !private ["So18UITraitEnvironmentP", "dataSource"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "dragDelegate"]
+- !private ["So18UITraitEnvironmentP", "dropDelegate"]
+- !private ["So18UITraitEnvironmentP", "register"]
+- !private ["So23UIUserActivityRestoringP", "allowsSelection"]
+- !private ["So23UIUserActivityRestoringP", "collectionViewLayout"]
+- !private ["So23UIUserActivityRestoringP", "dataSource"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "dragDelegate"]
+- !private ["So23UIUserActivityRestoringP", "dropDelegate"]
+- !private ["So23UIUserActivityRestoringP", "register"]
+- !private ["So6UIViewC", "allowsSelection"]
+- !private ["So6UIViewC", "collectionViewLayout"]
+- !private ["So6UIViewC", "dataSource"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "dragDelegate"]
+- !private ["So6UIViewC", "dropDelegate"]
+- !private ["So6UIViewC", "register"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "allowsSelection"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "collectionViewLayout"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "dataSource"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "delegate"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "dragDelegate"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "dropDelegate"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "register"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allowsSelection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "collectionViewLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dragDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dropDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "allowsSelection"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "collectionViewLayout"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dataSource"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dragDelegate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dropDelegate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "register"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- "So16UICollectionViewC"
+- "12ViewChaining012UICollectionaB0P"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "12ViewChaining08UIScrollaB8ProtocolP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "12ViewChaining06UIViewB8ProtocolP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/ViewChaining/ViewChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/build/ViewChaining.build/Debug-iphonesimulator/ViewChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a57757c5eacfce46d3443cae780eec80"

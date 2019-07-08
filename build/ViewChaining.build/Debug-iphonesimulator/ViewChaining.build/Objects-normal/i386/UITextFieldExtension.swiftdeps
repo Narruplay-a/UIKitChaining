@@ -1,0 +1,323 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So11UITextFieldC", ""]
+- ["So11UITextFieldC", "fontSize"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "UIFont"
+- "UITextField"
+- !private "objc_AssociationPolicy"
+- !private "objc_setAssociatedObject"
+depends-member:
+- !private ["So15CALayerDelegateP", "AssociatedKeys"]
+- !private ["So15CALayerDelegateP", "UIFont"]
+- !private ["So15CALayerDelegateP", "font"]
+- !private ["So15CALayerDelegateP", "objc_AssociationPolicy"]
+- !private ["So15CALayerDelegateP", "objc_setAssociatedObject"]
+- !private ["s7CVarArgP", "AssociatedKeys"]
+- !private ["s7CVarArgP", "UIFont"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "fontDescriptor"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "objc_AssociationPolicy"]
+- !private ["s7CVarArgP", "objc_setAssociatedObject"]
+- !private ["s7CVarArgP", "pointSize"]
+- !private ["s7CVarArgP", "systemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "AssociatedKeys"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "fontDescriptor"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_AssociationPolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "pointSize"]
+- !private ["s28CustomDebugStringConvertibleP", "systemFont"]
+- !private ["s23CustomStringConvertibleP", "AssociatedKeys"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "fontDescriptor"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "objc_AssociationPolicy"]
+- !private ["s23CustomStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "pointSize"]
+- !private ["s23CustomStringConvertibleP", "systemFont"]
+- !private ["SQ", "AssociatedKeys"]
+- !private ["SQ", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["SQ", "UIFont"]
+- !private ["SQ", "font"]
+- !private ["SQ", "fontDescriptor"]
+- !private ["SQ", "init"]
+- !private ["SQ", "objc_AssociationPolicy"]
+- !private ["SQ", "objc_setAssociatedObject"]
+- !private ["SQ", "pointSize"]
+- !private ["SQ", "systemFont"]
+- !private ["SH", "AssociatedKeys"]
+- !private ["SH", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["SH", "UIFont"]
+- !private ["SH", "font"]
+- !private ["SH", "fontDescriptor"]
+- !private ["SH", "init"]
+- !private ["SH", "objc_AssociationPolicy"]
+- !private ["SH", "objc_setAssociatedObject"]
+- !private ["SH", "pointSize"]
+- !private ["SH", "systemFont"]
+- !private ["So8NSCodingP", "AssociatedKeys"]
+- !private ["So8NSCodingP", "UIFont"]
+- !private ["So8NSCodingP", "font"]
+- !private ["So8NSCodingP", "objc_AssociationPolicy"]
+- !private ["So8NSCodingP", "objc_setAssociatedObject"]
+- !private ["So9NSCopyingP", "fontDescriptor"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "pointSize"]
+- !private ["So9NSCopyingP", "systemFont"]
+- !private ["So8NSObjectC", "AssociatedKeys"]
+- ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "font"]
+- !private ["So8NSObjectC", "fontDescriptor"]
+- ["So8NSObjectC", "fontSize"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "objc_AssociationPolicy"]
+- !private ["So8NSObjectC", "objc_setAssociatedObject"]
+- !private ["So8NSObjectC", "pointSize"]
+- !private ["So8NSObjectC", "systemFont"]
+- !private ["So8NSObjectP", "AssociatedKeys"]
+- !private ["So8NSObjectP", "UIFont"]
+- !private ["So8NSObjectP", "font"]
+- !private ["So8NSObjectP", "fontDescriptor"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "objc_AssociationPolicy"]
+- !private ["So8NSObjectP", "objc_setAssociatedObject"]
+- !private ["So8NSObjectP", "pointSize"]
+- !private ["So8NSObjectP", "systemFont"]
+- !private ["SY", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["So29UIAccessibilityIdentificationP", "AssociatedKeys"]
+- !private ["So29UIAccessibilityIdentificationP", "UIFont"]
+- !private ["So29UIAccessibilityIdentificationP", "font"]
+- !private ["So29UIAccessibilityIdentificationP", "objc_AssociationPolicy"]
+- !private ["So29UIAccessibilityIdentificationP", "objc_setAssociatedObject"]
+- !private ["So12UIAppearanceP", "AssociatedKeys"]
+- !private ["So12UIAppearanceP", "UIFont"]
+- !private ["So12UIAppearanceP", "font"]
+- !private ["So12UIAppearanceP", "objc_AssociationPolicy"]
+- !private ["So12UIAppearanceP", "objc_setAssociatedObject"]
+- !private ["So21UIAppearanceContainerP", "AssociatedKeys"]
+- !private ["So21UIAppearanceContainerP", "UIFont"]
+- !private ["So21UIAppearanceContainerP", "font"]
+- !private ["So21UIAppearanceContainerP", "objc_AssociationPolicy"]
+- !private ["So21UIAppearanceContainerP", "objc_setAssociatedObject"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "AssociatedKeys"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "UIFont"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "font"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "objc_AssociationPolicy"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "objc_setAssociatedObject"]
+- !private ["So9UIControlC", "AssociatedKeys"]
+- ["So9UIControlC", "CGFloat"]
+- !private ["So9UIControlC", "UIFont"]
+- !private ["So9UIControlC", "font"]
+- ["So9UIControlC", "fontSize"]
+- !private ["So9UIControlC", "objc_AssociationPolicy"]
+- !private ["So9UIControlC", "objc_setAssociatedObject"]
+- !private ["So17UICoordinateSpaceP", "AssociatedKeys"]
+- !private ["So17UICoordinateSpaceP", "UIFont"]
+- !private ["So17UICoordinateSpaceP", "font"]
+- !private ["So17UICoordinateSpaceP", "objc_AssociationPolicy"]
+- !private ["So17UICoordinateSpaceP", "objc_setAssociatedObject"]
+- !private ["So13UIDynamicItemP", "AssociatedKeys"]
+- !private ["So13UIDynamicItemP", "UIFont"]
+- !private ["So13UIDynamicItemP", "font"]
+- !private ["So13UIDynamicItemP", "objc_AssociationPolicy"]
+- !private ["So13UIDynamicItemP", "objc_setAssociatedObject"]
+- !private ["So18UIFocusEnvironmentP", "AssociatedKeys"]
+- !private ["So18UIFocusEnvironmentP", "UIFont"]
+- !private ["So18UIFocusEnvironmentP", "font"]
+- !private ["So18UIFocusEnvironmentP", "objc_AssociationPolicy"]
+- !private ["So18UIFocusEnvironmentP", "objc_setAssociatedObject"]
+- !private ["So11UIFocusItemP", "AssociatedKeys"]
+- !private ["So11UIFocusItemP", "UIFont"]
+- !private ["So11UIFocusItemP", "font"]
+- !private ["So11UIFocusItemP", "objc_AssociationPolicy"]
+- !private ["So11UIFocusItemP", "objc_setAssociatedObject"]
+- !private ["So20UIFocusItemContainerP", "AssociatedKeys"]
+- !private ["So20UIFocusItemContainerP", "UIFont"]
+- !private ["So20UIFocusItemContainerP", "font"]
+- !private ["So20UIFocusItemContainerP", "objc_AssociationPolicy"]
+- !private ["So20UIFocusItemContainerP", "objc_setAssociatedObject"]
+- !private ["So6UIFontC", "fontDescriptor"]
+- !private ["So6UIFontC", "init"]
+- !private ["So6UIFontC", "pointSize"]
+- !private ["So6UIFontC", "systemFont"]
+- !private ["So10UIKeyInputP", "AssociatedKeys"]
+- !private ["So10UIKeyInputP", "UIFont"]
+- !private ["So10UIKeyInputP", "font"]
+- !private ["So10UIKeyInputP", "objc_AssociationPolicy"]
+- !private ["So10UIKeyInputP", "objc_setAssociatedObject"]
+- !private ["So30UIPasteConfigurationSupportingP", "AssociatedKeys"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- !private ["So30UIPasteConfigurationSupportingP", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "objc_AssociationPolicy"]
+- !private ["So30UIPasteConfigurationSupportingP", "objc_setAssociatedObject"]
+- !private ["So11UIResponderC", "AssociatedKeys"]
+- ["So11UIResponderC", "CGFloat"]
+- !private ["So11UIResponderC", "UIFont"]
+- !private ["So11UIResponderC", "font"]
+- ["So11UIResponderC", "fontSize"]
+- !private ["So11UIResponderC", "objc_AssociationPolicy"]
+- !private ["So11UIResponderC", "objc_setAssociatedObject"]
+- !private ["So30UIResponderStandardEditActionsP", "AssociatedKeys"]
+- !private ["So30UIResponderStandardEditActionsP", "UIFont"]
+- !private ["So30UIResponderStandardEditActionsP", "font"]
+- !private ["So30UIResponderStandardEditActionsP", "objc_AssociationPolicy"]
+- !private ["So30UIResponderStandardEditActionsP", "objc_setAssociatedObject"]
+- !private ["So15UITextDraggableP", "AssociatedKeys"]
+- !private ["So15UITextDraggableP", "UIFont"]
+- !private ["So15UITextDraggableP", "font"]
+- !private ["So15UITextDraggableP", "objc_AssociationPolicy"]
+- !private ["So15UITextDraggableP", "objc_setAssociatedObject"]
+- !private ["So15UITextDroppableP", "AssociatedKeys"]
+- !private ["So15UITextDroppableP", "UIFont"]
+- !private ["So15UITextDroppableP", "font"]
+- !private ["So15UITextDroppableP", "objc_AssociationPolicy"]
+- !private ["So15UITextDroppableP", "objc_setAssociatedObject"]
+- !private ["So11UITextFieldC", "AssociatedKeys"]
+- ["So11UITextFieldC", "CGFloat"]
+- !private ["So11UITextFieldC", "UIFont"]
+- !private ["So11UITextFieldC", "deinit"]
+- !private ["So11UITextFieldC", "font"]
+- ["So11UITextFieldC", "fontSize"]
+- !private ["So11UITextFieldC", "objc_AssociationPolicy"]
+- !private ["So11UITextFieldC", "objc_setAssociatedObject"]
+- !private ["12ViewChaining011UITextFieldB0P", "AssociatedKeys"]
+- !private ["12ViewChaining011UITextFieldB0P", "UIFont"]
+- !private ["12ViewChaining011UITextFieldB0P", "font"]
+- !private ["12ViewChaining011UITextFieldB0P", "objc_AssociationPolicy"]
+- !private ["12ViewChaining011UITextFieldB0P", "objc_setAssociatedObject"]
+- !private ["So11UITextInputP", "AssociatedKeys"]
+- !private ["So11UITextInputP", "UIFont"]
+- !private ["So11UITextInputP", "font"]
+- !private ["So11UITextInputP", "objc_AssociationPolicy"]
+- !private ["So11UITextInputP", "objc_setAssociatedObject"]
+- !private ["So17UITextInputTraitsP", "AssociatedKeys"]
+- !private ["So17UITextInputTraitsP", "UIFont"]
+- !private ["So17UITextInputTraitsP", "font"]
+- !private ["So17UITextInputTraitsP", "objc_AssociationPolicy"]
+- !private ["So17UITextInputTraitsP", "objc_setAssociatedObject"]
+- !private ["So34UITextPasteConfigurationSupportingP", "AssociatedKeys"]
+- !private ["So34UITextPasteConfigurationSupportingP", "UIFont"]
+- !private ["So34UITextPasteConfigurationSupportingP", "font"]
+- !private ["So34UITextPasteConfigurationSupportingP", "objc_AssociationPolicy"]
+- !private ["So34UITextPasteConfigurationSupportingP", "objc_setAssociatedObject"]
+- !private ["So18UITraitEnvironmentP", "AssociatedKeys"]
+- !private ["So18UITraitEnvironmentP", "UIFont"]
+- !private ["So18UITraitEnvironmentP", "font"]
+- !private ["So18UITraitEnvironmentP", "objc_AssociationPolicy"]
+- !private ["So18UITraitEnvironmentP", "objc_setAssociatedObject"]
+- !private ["So23UIUserActivityRestoringP", "AssociatedKeys"]
+- !private ["So23UIUserActivityRestoringP", "UIFont"]
+- !private ["So23UIUserActivityRestoringP", "font"]
+- !private ["So23UIUserActivityRestoringP", "objc_AssociationPolicy"]
+- !private ["So23UIUserActivityRestoringP", "objc_setAssociatedObject"]
+- !private ["So6UIViewC", "AssociatedKeys"]
+- ["So6UIViewC", "CGFloat"]
+- !private ["So6UIViewC", "UIFont"]
+- !private ["So6UIViewC", "font"]
+- ["So6UIViewC", "fontSize"]
+- !private ["So6UIViewC", "objc_AssociationPolicy"]
+- !private ["So6UIViewC", "objc_setAssociatedObject"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "AssociatedKeys"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "UIFont"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "font"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "objc_AssociationPolicy"]
+- !private ["12ViewChaining06UIViewB8ProtocolP", "objc_setAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AssociatedKeys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fontDescriptor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_AssociationPolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_setAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pointSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "AssociatedKeys"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIFont"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "font"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "objc_AssociationPolicy"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "objc_setAssociatedObject"]
+- !private ["So22objc_AssociationPolicyV", "OBJC_ASSOCIATION_RETAIN"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "SY"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So6UIFontC"
+- !private "So10UIKeyInputP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- "So11UITextFieldC"
+- !private "12ViewChaining011UITextFieldB0P"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "12ViewChaining06UIViewB8ProtocolP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+- !private "So22objc_AssociationPolicyV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/ViewChaining/ViewChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/build/ViewChaining.build/Debug-iphonesimulator/ViewChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "247822053f85556826a291aabd530faa"
