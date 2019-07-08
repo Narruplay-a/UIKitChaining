@@ -5,7 +5,7 @@ public protocol UIActivityIndicatorViewChaining { }
 public extension UIActivityIndicatorViewChaining {
     @discardableResult
     func style(_ style: UIActivityIndicatorView.Style) -> Self {
-        (self as! UIActivityIndicatorView).style = style
+        (self as! UIActivityIndicatorView).activityIndicatorViewStyle = style
         return self
     }
     @discardableResult

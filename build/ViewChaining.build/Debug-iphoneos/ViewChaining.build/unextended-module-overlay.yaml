@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': "/Users/adelkhaziakhmetov/Library/Developer/Xcode/DerivedData/ViewChaining-erkufxcdrbcrqpeaqzwdpfkwgaag/Build/Products/Debug-iphoneos/ViewChaining.framework/Modules"
+    'name': "/Users/adelkhaziakhmetov/Library/Developer/Xcode/DerivedData/ViewChaining-fzegleobguujfcdmoutcgwkszken/Build/Products/Debug-iphoneos/ViewChaining.framework/Modules"
     'contents': [{
       'type': 'file',
       'name': "module.modulemap",
-      'external-contents': "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/build/ViewChaining.build/Debug-iphoneos/ViewChaining.build/unextended-module.modulemap",
+      'external-contents': "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/build/ViewChaining.build/Debug-iphoneos/ViewChaining.build/unextended-module.modulemap",
     }]
   }]
 }

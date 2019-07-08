@@ -23,9 +23,9 @@ depends-top-level:
 - "CGFloat"
 - "CGPoint"
 - "CastingPrecedence"
+- !private "NSNotification"
 - !private "NotificationCenter"
 - "UIEdgeInsets"
-- !private "UIResponder"
 - "UIScrollView"
 - "UIScrollViewChainingProtocol"
 - "UIScrollViewDelegate"
@@ -41,6 +41,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "keyboardWillShow"]
 - !private ["So15CALayerDelegateP", "showsHorizontalScrollIndicator"]
 - !private ["So15CALayerDelegateP", "showsVerticalScrollIndicator"]
+- !private ["s7CVarArgP", "Name"]
 - !private ["s7CVarArgP", "addObserver"]
 - !private ["s7CVarArgP", "alwaysBounceHorizontal"]
 - !private ["s7CVarArgP", "alwaysBounceVertical"]
@@ -51,12 +52,11 @@ depends-member:
 - !private ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "isScrollEnabled"]
 - !private ["s7CVarArgP", "keyboardWillHide"]
-- !private ["s7CVarArgP", "keyboardWillHideNotification"]
 - !private ["s7CVarArgP", "keyboardWillShow"]
-- !private ["s7CVarArgP", "keyboardWillShowNotification"]
 - !private ["s7CVarArgP", "removeObserver"]
 - !private ["s7CVarArgP", "showsHorizontalScrollIndicator"]
 - !private ["s7CVarArgP", "showsVerticalScrollIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
 - !private ["s28CustomDebugStringConvertibleP", "addObserver"]
 - !private ["s28CustomDebugStringConvertibleP", "alwaysBounceHorizontal"]
 - !private ["s28CustomDebugStringConvertibleP", "alwaysBounceVertical"]
@@ -67,12 +67,11 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "isScrollEnabled"]
 - !private ["s28CustomDebugStringConvertibleP", "keyboardWillHide"]
-- !private ["s28CustomDebugStringConvertibleP", "keyboardWillHideNotification"]
 - !private ["s28CustomDebugStringConvertibleP", "keyboardWillShow"]
-- !private ["s28CustomDebugStringConvertibleP", "keyboardWillShowNotification"]
 - !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
 - !private ["s28CustomDebugStringConvertibleP", "showsHorizontalScrollIndicator"]
 - !private ["s28CustomDebugStringConvertibleP", "showsVerticalScrollIndicator"]
+- !private ["s23CustomStringConvertibleP", "Name"]
 - !private ["s23CustomStringConvertibleP", "addObserver"]
 - !private ["s23CustomStringConvertibleP", "alwaysBounceHorizontal"]
 - !private ["s23CustomStringConvertibleP", "alwaysBounceVertical"]
@@ -83,12 +82,13 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "isScrollEnabled"]
 - !private ["s23CustomStringConvertibleP", "keyboardWillHide"]
-- !private ["s23CustomStringConvertibleP", "keyboardWillHideNotification"]
 - !private ["s23CustomStringConvertibleP", "keyboardWillShow"]
-- !private ["s23CustomStringConvertibleP", "keyboardWillShowNotification"]
 - !private ["s23CustomStringConvertibleP", "removeObserver"]
 - !private ["s23CustomStringConvertibleP", "showsHorizontalScrollIndicator"]
 - !private ["s23CustomStringConvertibleP", "showsVerticalScrollIndicator"]
+- !private ["SQ", "Name"]
+- !private ["SQ", "UIKeyboardWillHide"]
+- !private ["SQ", "UIKeyboardWillShow"]
 - !private ["SQ", "addObserver"]
 - !private ["SQ", "alwaysBounceHorizontal"]
 - !private ["SQ", "alwaysBounceVertical"]
@@ -99,12 +99,13 @@ depends-member:
 - !private ["SQ", "delegate"]
 - !private ["SQ", "isScrollEnabled"]
 - !private ["SQ", "keyboardWillHide"]
-- !private ["SQ", "keyboardWillHideNotification"]
 - !private ["SQ", "keyboardWillShow"]
-- !private ["SQ", "keyboardWillShowNotification"]
 - !private ["SQ", "removeObserver"]
 - !private ["SQ", "showsHorizontalScrollIndicator"]
 - !private ["SQ", "showsVerticalScrollIndicator"]
+- !private ["SH", "Name"]
+- !private ["SH", "UIKeyboardWillHide"]
+- !private ["SH", "UIKeyboardWillShow"]
 - !private ["SH", "addObserver"]
 - !private ["SH", "alwaysBounceHorizontal"]
 - !private ["SH", "alwaysBounceVertical"]
@@ -115,12 +116,11 @@ depends-member:
 - !private ["SH", "delegate"]
 - !private ["SH", "isScrollEnabled"]
 - !private ["SH", "keyboardWillHide"]
-- !private ["SH", "keyboardWillHideNotification"]
 - !private ["SH", "keyboardWillShow"]
-- !private ["SH", "keyboardWillShowNotification"]
 - !private ["SH", "removeObserver"]
 - !private ["SH", "showsHorizontalScrollIndicator"]
 - !private ["SH", "showsVerticalScrollIndicator"]
+- !private ["So8NSCodingP", "Name"]
 - !private ["So8NSCodingP", "alwaysBounceHorizontal"]
 - !private ["So8NSCodingP", "alwaysBounceVertical"]
 - !private ["So8NSCodingP", "contentAdjustOffset"]
@@ -132,6 +132,9 @@ depends-member:
 - !private ["So8NSCodingP", "keyboardWillShow"]
 - !private ["So8NSCodingP", "showsHorizontalScrollIndicator"]
 - !private ["So8NSCodingP", "showsVerticalScrollIndicator"]
+- !private ["So9NSCopyingP", "Name"]
+- !private ["So14NSNotificationC", "Name"]
+- !private ["So8NSObjectC", "Name"]
 - !private ["So8NSObjectC", "addObserver"]
 - !private ["So8NSObjectC", "alwaysBounceHorizontal"]
 - !private ["So8NSObjectC", "alwaysBounceVertical"]
@@ -142,12 +145,11 @@ depends-member:
 - !private ["So8NSObjectC", "delegate"]
 - !private ["So8NSObjectC", "isScrollEnabled"]
 - !private ["So8NSObjectC", "keyboardWillHide"]
-- !private ["So8NSObjectC", "keyboardWillHideNotification"]
 - !private ["So8NSObjectC", "keyboardWillShow"]
-- !private ["So8NSObjectC", "keyboardWillShowNotification"]
 - !private ["So8NSObjectC", "removeObserver"]
 - !private ["So8NSObjectC", "showsHorizontalScrollIndicator"]
 - !private ["So8NSObjectC", "showsVerticalScrollIndicator"]
+- !private ["So8NSObjectP", "Name"]
 - !private ["So8NSObjectP", "addObserver"]
 - !private ["So8NSObjectP", "alwaysBounceHorizontal"]
 - !private ["So8NSObjectP", "alwaysBounceVertical"]
@@ -158,15 +160,17 @@ depends-member:
 - !private ["So8NSObjectP", "delegate"]
 - !private ["So8NSObjectP", "isScrollEnabled"]
 - !private ["So8NSObjectP", "keyboardWillHide"]
-- !private ["So8NSObjectP", "keyboardWillHideNotification"]
 - !private ["So8NSObjectP", "keyboardWillShow"]
-- !private ["So8NSObjectP", "keyboardWillShowNotification"]
 - !private ["So8NSObjectP", "removeObserver"]
 - !private ["So8NSObjectP", "showsHorizontalScrollIndicator"]
 - !private ["So8NSObjectP", "showsVerticalScrollIndicator"]
+- !private ["So18NSNotificationNamea", "UIKeyboardWillHide"]
+- !private ["So18NSNotificationNamea", "UIKeyboardWillShow"]
 - !private ["So20NSNotificationCenterC", "addObserver"]
 - !private ["So20NSNotificationCenterC", "default"]
 - !private ["So20NSNotificationCenterC", "removeObserver"]
+- !private ["SY", "UIKeyboardWillHide"]
+- !private ["SY", "UIKeyboardWillShow"]
 - !private ["So29UIAccessibilityIdentificationP", "alwaysBounceHorizontal"]
 - !private ["So29UIAccessibilityIdentificationP", "alwaysBounceVertical"]
 - !private ["So29UIAccessibilityIdentificationP", "contentAdjustOffset"]
@@ -274,9 +278,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "delegate"]
 - !private ["So30UIPasteConfigurationSupportingP", "isScrollEnabled"]
 - !private ["So30UIPasteConfigurationSupportingP", "keyboardWillHide"]
-- !private ["So30UIPasteConfigurationSupportingP", "keyboardWillHideNotification"]
 - !private ["So30UIPasteConfigurationSupportingP", "keyboardWillShow"]
-- !private ["So30UIPasteConfigurationSupportingP", "keyboardWillShowNotification"]
 - !private ["So30UIPasteConfigurationSupportingP", "showsHorizontalScrollIndicator"]
 - !private ["So30UIPasteConfigurationSupportingP", "showsVerticalScrollIndicator"]
 - !private ["So11UIResponderC", "alwaysBounceHorizontal"]
@@ -287,9 +289,7 @@ depends-member:
 - !private ["So11UIResponderC", "delegate"]
 - !private ["So11UIResponderC", "isScrollEnabled"]
 - !private ["So11UIResponderC", "keyboardWillHide"]
-- !private ["So11UIResponderC", "keyboardWillHideNotification"]
 - !private ["So11UIResponderC", "keyboardWillShow"]
-- !private ["So11UIResponderC", "keyboardWillShowNotification"]
 - !private ["So11UIResponderC", "showsHorizontalScrollIndicator"]
 - !private ["So11UIResponderC", "showsVerticalScrollIndicator"]
 - !private ["So30UIResponderStandardEditActionsP", "alwaysBounceHorizontal"]
@@ -300,9 +300,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "delegate"]
 - !private ["So30UIResponderStandardEditActionsP", "isScrollEnabled"]
 - !private ["So30UIResponderStandardEditActionsP", "keyboardWillHide"]
-- !private ["So30UIResponderStandardEditActionsP", "keyboardWillHideNotification"]
 - !private ["So30UIResponderStandardEditActionsP", "keyboardWillShow"]
-- !private ["So30UIResponderStandardEditActionsP", "keyboardWillShowNotification"]
 - !private ["So30UIResponderStandardEditActionsP", "showsHorizontalScrollIndicator"]
 - !private ["So30UIResponderStandardEditActionsP", "showsVerticalScrollIndicator"]
 - !private ["So12UIScrollViewC", "alwaysBounceHorizontal"]
@@ -320,9 +318,9 @@ depends-member:
 - ["12ViewChaining08UIScrollaB8ProtocolP", "Bool"]
 - ["12ViewChaining08UIScrollaB8ProtocolP", "CGFloat"]
 - ["12ViewChaining08UIScrollaB8ProtocolP", "CGPoint"]
+- !private ["12ViewChaining08UIScrollaB8ProtocolP", "NSNotification"]
 - !private ["12ViewChaining08UIScrollaB8ProtocolP", "NotificationCenter"]
 - ["12ViewChaining08UIScrollaB8ProtocolP", "UIEdgeInsets"]
-- !private ["12ViewChaining08UIScrollaB8ProtocolP", "UIResponder"]
 - !private ["12ViewChaining08UIScrollaB8ProtocolP", "UIScrollView"]
 - ["12ViewChaining08UIScrollaB8ProtocolP", "UIScrollViewDelegate"]
 - ["12ViewChaining08UIScrollaB8ProtocolP", ""]
@@ -357,9 +355,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "delegate"]
 - !private ["So23UIUserActivityRestoringP", "isScrollEnabled"]
 - !private ["So23UIUserActivityRestoringP", "keyboardWillHide"]
-- !private ["So23UIUserActivityRestoringP", "keyboardWillHideNotification"]
 - !private ["So23UIUserActivityRestoringP", "keyboardWillShow"]
-- !private ["So23UIUserActivityRestoringP", "keyboardWillShowNotification"]
 - !private ["So23UIUserActivityRestoringP", "showsHorizontalScrollIndicator"]
 - !private ["So23UIUserActivityRestoringP", "showsVerticalScrollIndicator"]
 - !private ["So6UIViewC", "alwaysBounceHorizontal"]
@@ -384,6 +380,10 @@ depends-member:
 - !private ["12ViewChaining06UIViewB8ProtocolP", "keyboardWillShow"]
 - !private ["12ViewChaining06UIViewB8ProtocolP", "showsHorizontalScrollIndicator"]
 - !private ["12ViewChaining06UIViewB8ProtocolP", "showsVerticalScrollIndicator"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "UIKeyboardWillHide"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "UIKeyboardWillShow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "alwaysBounceHorizontal"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "alwaysBounceVertical"]
@@ -394,12 +394,14 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isScrollEnabled"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardWillHide"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardWillHideNotification"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardWillShow"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardWillShowNotification"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "showsHorizontalScrollIndicator"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "showsVerticalScrollIndicator"]
+- !private ["s21_ObjectiveCBridgeableP", "UIKeyboardWillHide"]
+- !private ["s21_ObjectiveCBridgeableP", "UIKeyboardWillShow"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIKeyboardWillHide"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIKeyboardWillShow"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "alwaysBounceHorizontal"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "alwaysBounceVertical"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "contentAdjustOffset"]
@@ -419,9 +421,13 @@ depends-nominal:
 - !private "SQ"
 - !private "SH"
 - !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So14NSNotificationC"
 - !private "So8NSObjectC"
 - !private "So8NSObjectP"
+- !private "So18NSNotificationNamea"
 - !private "So20NSNotificationCenterC"
+- !private "SY"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - !private "So21UIAppearanceContainerP"
@@ -440,7 +446,10 @@ depends-nominal:
 - !private "So23UIUserActivityRestoringP"
 - !private "So6UIViewC"
 - !private "12ViewChaining06UIViewB8ProtocolP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
 - !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
@@ -456,8 +465,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/ViewChaining/ViewChaining.h"
-- "/Users/adelkhaziakhmetov/Documents/XCODE/ViewChaining4.2/build/ViewChaining.build/Debug-iphonesimulator/ViewChaining.build/unextended-module.modulemap"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/ViewChaining/ViewChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/build/ViewChaining.build/Debug-iphonesimulator/ViewChaining.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"

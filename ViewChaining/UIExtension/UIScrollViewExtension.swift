@@ -48,7 +48,7 @@ public extension UIScrollView {
     
     @objc internal func keyboardWillShow(notification: NSNotification) {
         let info = notification.userInfo!
-        let keyboardFrame: CGRect = (info[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+        let keyboardFrame: CGRect = (info[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
         tempContentOffset = contentOffset
         if let textField = firstResponderSubview() {
             scroll(to: textField, contentView: self.subviews[0], scrollPosition: .bottom, offset: keyboardFrame.height + contentAdjustOffset)
@@ -63,13 +63,13 @@ public extension UIScrollView {
     //Don't forget to call disableFirstResponderViewAdjustToKeyboardFrame() func to remove observers and avoid memory leaks (usually in scrollview's controller deinit)
     func enableFirstResponderViewAdjustToKeyboardFrame(with offset: CGFloat = 10) {
         contentAdjustOffset = offset
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
     }
 
     func disableFirstResponderViewAdjustToKeyboardFrame() {
-        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIKeyboardWillHide, object: nil)
     }
     
     //Scroll to bottom of scroll view's content

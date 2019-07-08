@@ -376,13 +376,13 @@ public extension UIViewChainingProtocol {
     @discardableResult
     func sendToBack() -> Self {
         guard let superview = (self as! UIView).superview else { return self }
-        superview.sendSubviewToBack((self as! UIView))
+        superview.sendSubview(toBack: (self as! UIView))
         return self
     }
     @discardableResult
     func bringToFront() -> Self {
         guard let superview = (self as! UIView).superview else { return self }
-        superview.bringSubviewToFront((self as! UIView))
+        superview.bringSubview(toFront: (self as! UIView))
         return self
     }
     @discardableResult
