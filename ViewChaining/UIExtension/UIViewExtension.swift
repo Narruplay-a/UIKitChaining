@@ -19,7 +19,7 @@ public extension UIView {
         return nil
     }
     
-    func leftView() -> UIView? {
+    func firstLeftConstraintView() -> UIView? {
         guard let _ = superview else { return nil }
         var leftView: UIView?
         
@@ -33,7 +33,7 @@ public extension UIView {
         return leftView
     }
     
-    func rightView() -> UIView? {
+    func firstRightConstraintView() -> UIView? {
         guard let _ = superview else { return nil }
         var rightView: UIView?
         
@@ -47,7 +47,7 @@ public extension UIView {
         return rightView
     }
     
-    func topView() -> UIView? {
+    func firstTopConstraintView() -> UIView? {
         guard let _ = superview else { return nil }
         var topView: UIView?
         
@@ -61,7 +61,7 @@ public extension UIView {
         return topView
     }
     
-    func bottomView() -> UIView? {
+    func firstBottomConstraintView() -> UIView? {
         guard let _ = superview else { return nil }
         var bottomView: UIView?
         
