@@ -38,14 +38,24 @@ public extension NSMutableAttributedString {
         append(tempString)
     }
     
+    static func complexAttributedString(_ vars: [NSMutableAttributedString]) -> NSMutableAttributedString {
+        let string = vars[0]
+        for i in 1..<vars.count {
+            string.append(vars[i])
+        }
+        return string
+    }
+    
     static func createBulletList(_ stringList: [String],
                                  font: UIFont,
                                  bullet: String = "\u{2022}",
                                  indentation: CGFloat = 20,
                                  lineSpacing: CGFloat = 2,
-                                 paragraphSpacing: CGFloat = 3,
+                                 paragraphSpacing: CGFloat = 6,
                                  textColor: UIColor = .black,
-                                 bulletColor: UIColor = .black) -> NSMutableAttributedString {
+                                 bulletColor: UIColor = .black,
+                                 attributes: [NSAttributedString.Key: Any] = [:],
+                                 range: NSRange = NSRange(location: 0, length: 0)) -> NSMutableAttributedString {
         
         let textAttributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key.font: font, NSAttributedString.Key.foregroundColor: textColor]
         let bulletAttributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key.font: font, NSAttributedString.Key.foregroundColor: bulletColor]
@@ -68,17 +78,21 @@ public extension NSMutableAttributedString {
             let attributedString = NSMutableAttributedString(string: formattedString)
             
             attributedString.addAttributes(
-                [NSAttributedString.Key.paragraphStyle : paragraphStyle],
+                [NSAttributedString.Key.paragraphStyle: paragraphStyle],
                 range: NSMakeRange(0, attributedString.length))
             
             attributedString.addAttributes(
                 textAttributes,
                 range: NSMakeRange(0, attributedString.length))
             
-            let string:NSString = NSString(string: formattedString)
+            let string: NSString = NSString(string: formattedString)
             let rangeForBullet:NSRange = string.range(of: bullet)
             attributedString.addAttributes(bulletAttributes, range: rangeForBullet)
             bulletList.append(attributedString)
+        }
+        
+        if attributes.keys.count > 0 {
+            bulletList.addAttributes(attributes, range: range)
         }
         
         return bulletList
