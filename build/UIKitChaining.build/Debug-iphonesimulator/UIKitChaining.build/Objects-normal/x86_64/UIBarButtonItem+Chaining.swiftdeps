@@ -1,0 +1,149 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UIBarButtonItemChaining"
+provides-nominal:
+- "So15UIBarButtonItemC"
+- "13UIKitChaining015UIBarButtonItemB0P"
+provides-member:
+- ["So15UIBarButtonItemC", ""]
+- ["13UIKitChaining015UIBarButtonItemB0P", ""]
+- ["13UIKitChaining015UIBarButtonItemB0P", "title"]
+- ["13UIKitChaining015UIBarButtonItemB0P", "style"]
+- ["13UIKitChaining015UIBarButtonItemB0P", "customView"]
+- ["13UIKitChaining015UIBarButtonItemB0P", "isSpringLoaded"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "String"
+- "UIBarButtonItem"
+- "UIBarButtonItemChaining"
+- "UIView"
+depends-member:
+- ["s7CVarArgP", "Style"]
+- !private ["s7CVarArgP", "customView"]
+- !private ["s7CVarArgP", "isSpringLoaded"]
+- !private ["s7CVarArgP", "style"]
+- !private ["s7CVarArgP", "title"]
+- ["s28CustomDebugStringConvertibleP", "Style"]
+- !private ["s28CustomDebugStringConvertibleP", "customView"]
+- !private ["s28CustomDebugStringConvertibleP", "isSpringLoaded"]
+- !private ["s28CustomDebugStringConvertibleP", "style"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- ["s23CustomStringConvertibleP", "Style"]
+- !private ["s23CustomStringConvertibleP", "customView"]
+- !private ["s23CustomStringConvertibleP", "isSpringLoaded"]
+- !private ["s23CustomStringConvertibleP", "style"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- ["SQ", "Style"]
+- !private ["SQ", "customView"]
+- !private ["SQ", "isSpringLoaded"]
+- !private ["SQ", "style"]
+- !private ["SQ", "title"]
+- ["SH", "Style"]
+- !private ["SH", "customView"]
+- !private ["SH", "isSpringLoaded"]
+- !private ["SH", "style"]
+- !private ["SH", "title"]
+- ["So8NSCodingP", "Style"]
+- !private ["So8NSCodingP", "customView"]
+- !private ["So8NSCodingP", "isSpringLoaded"]
+- !private ["So8NSCodingP", "style"]
+- !private ["So8NSCodingP", "title"]
+- ["So8NSObjectC", "Style"]
+- !private ["So8NSObjectC", "customView"]
+- !private ["So8NSObjectC", "isSpringLoaded"]
+- !private ["So8NSObjectC", "style"]
+- !private ["So8NSObjectC", "title"]
+- ["So8NSObjectP", "Style"]
+- !private ["So8NSObjectP", "customView"]
+- !private ["So8NSObjectP", "isSpringLoaded"]
+- !private ["So8NSObjectP", "style"]
+- !private ["So8NSObjectP", "title"]
+- ["So29UIAccessibilityIdentificationP", "Style"]
+- !private ["So29UIAccessibilityIdentificationP", "customView"]
+- !private ["So29UIAccessibilityIdentificationP", "isSpringLoaded"]
+- !private ["So29UIAccessibilityIdentificationP", "style"]
+- !private ["So29UIAccessibilityIdentificationP", "title"]
+- ["So12UIAppearanceP", "Style"]
+- !private ["So12UIAppearanceP", "customView"]
+- !private ["So12UIAppearanceP", "isSpringLoaded"]
+- !private ["So12UIAppearanceP", "style"]
+- !private ["So12UIAppearanceP", "title"]
+- ["So15UIBarButtonItemC", "Style"]
+- !private ["So15UIBarButtonItemC", "customView"]
+- ["So15UIBarButtonItemC", "deinit"]
+- !private ["So15UIBarButtonItemC", "isSpringLoaded"]
+- !private ["So15UIBarButtonItemC", "style"]
+- !private ["So15UIBarButtonItemC", "title"]
+- ["13UIKitChaining015UIBarButtonItemB0P", "Bool"]
+- ["13UIKitChaining015UIBarButtonItemB0P", "String"]
+- ["13UIKitChaining015UIBarButtonItemB0P", "Style"]
+- ["13UIKitChaining015UIBarButtonItemB0P", "UIBarButtonItem"]
+- ["13UIKitChaining015UIBarButtonItemB0P", "UIView"]
+- ["13UIKitChaining015UIBarButtonItemB0P", ""]
+- ["13UIKitChaining015UIBarButtonItemB0P", "customView"]
+- ["13UIKitChaining015UIBarButtonItemB0P", "isSpringLoaded"]
+- ["13UIKitChaining015UIBarButtonItemB0P", "style"]
+- ["13UIKitChaining015UIBarButtonItemB0P", "title"]
+- ["So9UIBarItemC", "Style"]
+- !private ["So9UIBarItemC", "customView"]
+- !private ["So9UIBarItemC", "isSpringLoaded"]
+- !private ["So9UIBarItemC", "style"]
+- !private ["So9UIBarItemC", "title"]
+- ["So35UISpringLoadedInteractionSupportingP", "Style"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "customView"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isSpringLoaded"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "style"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "title"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "customView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSpringLoaded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So15UIBarButtonItemC"
+- "13UIKitChaining015UIBarButtonItemB0P"
+- "So9UIBarItemC"
+- "So35UISpringLoadedInteractionSupportingP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/UIKitChaining/UIKitChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/build/UIKitChaining.build/Debug-iphonesimulator/UIKitChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "112bd57144cec5f25155fc49b7d980ab"

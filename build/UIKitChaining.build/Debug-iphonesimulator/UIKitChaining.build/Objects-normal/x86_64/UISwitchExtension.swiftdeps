@@ -1,0 +1,309 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UISwitchChangeAction"
+provides-nominal:
+- "13UIKitChaining20UISwitchChangeActionC"
+- "So8UISwitchC13UIKitChainingE14AssociatedKeysV"
+provides-member:
+- ["13UIKitChaining20UISwitchChangeActionC", ""]
+- ["So8UISwitchC", ""]
+- ["So8UISwitchC13UIKitChainingE14AssociatedKeysV", ""]
+- ["So8UISwitchC", "AssociatedKeys"]
+- ["So8UISwitchC", "onValueChange"]
+- ["So8UISwitchC", "valueChangeProceed"]
+provides-dynamic-lookup:
+- "valueChangeProceed"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "UISwitch"
+- "UISwitchChangeAction"
+- "Void"
+- !private "objc_AssociationPolicy"
+- !private "objc_getAssociatedObject"
+- !private "objc_setAssociatedObject"
+depends-member:
+- ["So8UISwitchC13UIKitChainingE14AssociatedKeysV", "UISwitchChangeAction"]
+- ["So8UISwitchC13UIKitChainingE14AssociatedKeysV", "init"]
+- ["So8UISwitchC13UIKitChainingE14AssociatedKeysV", "onValueChange"]
+- !private ["So15CALayerDelegateP", "AssociatedKeys"]
+- ["So15CALayerDelegateP", "UISwitchChangeAction"]
+- !private ["So15CALayerDelegateP", "isOn"]
+- !private ["So15CALayerDelegateP", "objc_AssociationPolicy"]
+- !private ["So15CALayerDelegateP", "objc_getAssociatedObject"]
+- !private ["So15CALayerDelegateP", "objc_setAssociatedObject"]
+- !private ["So15CALayerDelegateP", "onValueChange"]
+- !private ["s7CVarArgP", "AssociatedKeys"]
+- ["s7CVarArgP", "UISwitchChangeAction"]
+- !private ["s7CVarArgP", "isOn"]
+- !private ["s7CVarArgP", "objc_AssociationPolicy"]
+- !private ["s7CVarArgP", "objc_getAssociatedObject"]
+- !private ["s7CVarArgP", "objc_setAssociatedObject"]
+- !private ["s7CVarArgP", "onValueChange"]
+- !private ["s28CustomDebugStringConvertibleP", "AssociatedKeys"]
+- ["s28CustomDebugStringConvertibleP", "UISwitchChangeAction"]
+- !private ["s28CustomDebugStringConvertibleP", "isOn"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_AssociationPolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "onValueChange"]
+- !private ["s23CustomStringConvertibleP", "AssociatedKeys"]
+- ["s23CustomStringConvertibleP", "UISwitchChangeAction"]
+- !private ["s23CustomStringConvertibleP", "isOn"]
+- !private ["s23CustomStringConvertibleP", "objc_AssociationPolicy"]
+- !private ["s23CustomStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "onValueChange"]
+- !private ["SQ", "AssociatedKeys"]
+- !private ["SQ", "OBJC_ASSOCIATION_RETAIN"]
+- ["SQ", "UISwitchChangeAction"]
+- !private ["SQ", "isOn"]
+- !private ["SQ", "objc_AssociationPolicy"]
+- !private ["SQ", "objc_getAssociatedObject"]
+- !private ["SQ", "objc_setAssociatedObject"]
+- !private ["SQ", "onValueChange"]
+- !private ["SH", "AssociatedKeys"]
+- !private ["SH", "OBJC_ASSOCIATION_RETAIN"]
+- ["SH", "UISwitchChangeAction"]
+- !private ["SH", "isOn"]
+- !private ["SH", "objc_AssociationPolicy"]
+- !private ["SH", "objc_getAssociatedObject"]
+- !private ["SH", "objc_setAssociatedObject"]
+- !private ["SH", "onValueChange"]
+- !private ["So8NSCodingP", "AssociatedKeys"]
+- ["So8NSCodingP", "UISwitchChangeAction"]
+- !private ["So8NSCodingP", "isOn"]
+- !private ["So8NSCodingP", "objc_AssociationPolicy"]
+- !private ["So8NSCodingP", "objc_getAssociatedObject"]
+- !private ["So8NSCodingP", "objc_setAssociatedObject"]
+- !private ["So8NSCodingP", "onValueChange"]
+- !private ["So8NSObjectC", "AssociatedKeys"]
+- ["So8NSObjectC", "UISwitchChangeAction"]
+- !private ["So8NSObjectC", "isOn"]
+- !private ["So8NSObjectC", "objc_AssociationPolicy"]
+- !private ["So8NSObjectC", "objc_getAssociatedObject"]
+- !private ["So8NSObjectC", "objc_setAssociatedObject"]
+- ["So8NSObjectC", "onValueChange"]
+- ["So8NSObjectC", "valueChangeProceed"]
+- !private ["So8NSObjectP", "AssociatedKeys"]
+- ["So8NSObjectP", "UISwitchChangeAction"]
+- !private ["So8NSObjectP", "isOn"]
+- !private ["So8NSObjectP", "objc_AssociationPolicy"]
+- !private ["So8NSObjectP", "objc_getAssociatedObject"]
+- !private ["So8NSObjectP", "objc_setAssociatedObject"]
+- !private ["So8NSObjectP", "onValueChange"]
+- !private ["SY", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["So29UIAccessibilityIdentificationP", "AssociatedKeys"]
+- ["So29UIAccessibilityIdentificationP", "UISwitchChangeAction"]
+- !private ["So29UIAccessibilityIdentificationP", "isOn"]
+- !private ["So29UIAccessibilityIdentificationP", "objc_AssociationPolicy"]
+- !private ["So29UIAccessibilityIdentificationP", "objc_getAssociatedObject"]
+- !private ["So29UIAccessibilityIdentificationP", "objc_setAssociatedObject"]
+- !private ["So29UIAccessibilityIdentificationP", "onValueChange"]
+- !private ["So12UIAppearanceP", "AssociatedKeys"]
+- ["So12UIAppearanceP", "UISwitchChangeAction"]
+- !private ["So12UIAppearanceP", "isOn"]
+- !private ["So12UIAppearanceP", "objc_AssociationPolicy"]
+- !private ["So12UIAppearanceP", "objc_getAssociatedObject"]
+- !private ["So12UIAppearanceP", "objc_setAssociatedObject"]
+- !private ["So12UIAppearanceP", "onValueChange"]
+- !private ["So21UIAppearanceContainerP", "AssociatedKeys"]
+- ["So21UIAppearanceContainerP", "UISwitchChangeAction"]
+- !private ["So21UIAppearanceContainerP", "isOn"]
+- !private ["So21UIAppearanceContainerP", "objc_AssociationPolicy"]
+- !private ["So21UIAppearanceContainerP", "objc_getAssociatedObject"]
+- !private ["So21UIAppearanceContainerP", "objc_setAssociatedObject"]
+- !private ["So21UIAppearanceContainerP", "onValueChange"]
+- !private ["So9UIControlC", "AssociatedKeys"]
+- ["So9UIControlC", "UISwitchChangeAction"]
+- !private ["So9UIControlC", "isOn"]
+- !private ["So9UIControlC", "objc_AssociationPolicy"]
+- !private ["So9UIControlC", "objc_getAssociatedObject"]
+- !private ["So9UIControlC", "objc_setAssociatedObject"]
+- ["So9UIControlC", "onValueChange"]
+- ["So9UIControlC", "valueChangeProceed"]
+- !private ["So17UICoordinateSpaceP", "AssociatedKeys"]
+- ["So17UICoordinateSpaceP", "UISwitchChangeAction"]
+- !private ["So17UICoordinateSpaceP", "isOn"]
+- !private ["So17UICoordinateSpaceP", "objc_AssociationPolicy"]
+- !private ["So17UICoordinateSpaceP", "objc_getAssociatedObject"]
+- !private ["So17UICoordinateSpaceP", "objc_setAssociatedObject"]
+- !private ["So17UICoordinateSpaceP", "onValueChange"]
+- !private ["So13UIDynamicItemP", "AssociatedKeys"]
+- ["So13UIDynamicItemP", "UISwitchChangeAction"]
+- !private ["So13UIDynamicItemP", "isOn"]
+- !private ["So13UIDynamicItemP", "objc_AssociationPolicy"]
+- !private ["So13UIDynamicItemP", "objc_getAssociatedObject"]
+- !private ["So13UIDynamicItemP", "objc_setAssociatedObject"]
+- !private ["So13UIDynamicItemP", "onValueChange"]
+- !private ["So18UIFocusEnvironmentP", "AssociatedKeys"]
+- ["So18UIFocusEnvironmentP", "UISwitchChangeAction"]
+- !private ["So18UIFocusEnvironmentP", "isOn"]
+- !private ["So18UIFocusEnvironmentP", "objc_AssociationPolicy"]
+- !private ["So18UIFocusEnvironmentP", "objc_getAssociatedObject"]
+- !private ["So18UIFocusEnvironmentP", "objc_setAssociatedObject"]
+- !private ["So18UIFocusEnvironmentP", "onValueChange"]
+- !private ["So11UIFocusItemP", "AssociatedKeys"]
+- ["So11UIFocusItemP", "UISwitchChangeAction"]
+- !private ["So11UIFocusItemP", "isOn"]
+- !private ["So11UIFocusItemP", "objc_AssociationPolicy"]
+- !private ["So11UIFocusItemP", "objc_getAssociatedObject"]
+- !private ["So11UIFocusItemP", "objc_setAssociatedObject"]
+- !private ["So11UIFocusItemP", "onValueChange"]
+- !private ["So20UIFocusItemContainerP", "AssociatedKeys"]
+- ["So20UIFocusItemContainerP", "UISwitchChangeAction"]
+- !private ["So20UIFocusItemContainerP", "isOn"]
+- !private ["So20UIFocusItemContainerP", "objc_AssociationPolicy"]
+- !private ["So20UIFocusItemContainerP", "objc_getAssociatedObject"]
+- !private ["So20UIFocusItemContainerP", "objc_setAssociatedObject"]
+- !private ["So20UIFocusItemContainerP", "onValueChange"]
+- !private ["So30UIPasteConfigurationSupportingP", "AssociatedKeys"]
+- ["So30UIPasteConfigurationSupportingP", "UISwitchChangeAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "isOn"]
+- !private ["So30UIPasteConfigurationSupportingP", "objc_AssociationPolicy"]
+- !private ["So30UIPasteConfigurationSupportingP", "objc_getAssociatedObject"]
+- !private ["So30UIPasteConfigurationSupportingP", "objc_setAssociatedObject"]
+- !private ["So30UIPasteConfigurationSupportingP", "onValueChange"]
+- !private ["So11UIResponderC", "AssociatedKeys"]
+- ["So11UIResponderC", "UISwitchChangeAction"]
+- !private ["So11UIResponderC", "isOn"]
+- !private ["So11UIResponderC", "objc_AssociationPolicy"]
+- !private ["So11UIResponderC", "objc_getAssociatedObject"]
+- !private ["So11UIResponderC", "objc_setAssociatedObject"]
+- ["So11UIResponderC", "onValueChange"]
+- ["So11UIResponderC", "valueChangeProceed"]
+- !private ["So30UIResponderStandardEditActionsP", "AssociatedKeys"]
+- ["So30UIResponderStandardEditActionsP", "UISwitchChangeAction"]
+- !private ["So30UIResponderStandardEditActionsP", "isOn"]
+- !private ["So30UIResponderStandardEditActionsP", "objc_AssociationPolicy"]
+- !private ["So30UIResponderStandardEditActionsP", "objc_getAssociatedObject"]
+- !private ["So30UIResponderStandardEditActionsP", "objc_setAssociatedObject"]
+- !private ["So30UIResponderStandardEditActionsP", "onValueChange"]
+- ["So8UISwitchC", "AssociatedKeys"]
+- ["So8UISwitchC", "UISwitchChangeAction"]
+- !private ["So8UISwitchC", "deinit"]
+- !private ["So8UISwitchC", "isOn"]
+- !private ["So8UISwitchC", "objc_AssociationPolicy"]
+- !private ["So8UISwitchC", "objc_getAssociatedObject"]
+- !private ["So8UISwitchC", "objc_setAssociatedObject"]
+- ["So8UISwitchC", "onValueChange"]
+- ["So8UISwitchC", "valueChangeProceed"]
+- !private ["13UIKitChaining08UISwitchB0P", "AssociatedKeys"]
+- ["13UIKitChaining08UISwitchB0P", "UISwitchChangeAction"]
+- !private ["13UIKitChaining08UISwitchB0P", "isOn"]
+- !private ["13UIKitChaining08UISwitchB0P", "objc_AssociationPolicy"]
+- !private ["13UIKitChaining08UISwitchB0P", "objc_getAssociatedObject"]
+- !private ["13UIKitChaining08UISwitchB0P", "objc_setAssociatedObject"]
+- !private ["13UIKitChaining08UISwitchB0P", "onValueChange"]
+- ["13UIKitChaining20UISwitchChangeActionC", "Bool"]
+- ["13UIKitChaining20UISwitchChangeActionC", "Void"]
+- ["13UIKitChaining20UISwitchChangeActionC", "action"]
+- ["13UIKitChaining20UISwitchChangeActionC", "init"]
+- !private ["So18UITraitEnvironmentP", "AssociatedKeys"]
+- ["So18UITraitEnvironmentP", "UISwitchChangeAction"]
+- !private ["So18UITraitEnvironmentP", "isOn"]
+- !private ["So18UITraitEnvironmentP", "objc_AssociationPolicy"]
+- !private ["So18UITraitEnvironmentP", "objc_getAssociatedObject"]
+- !private ["So18UITraitEnvironmentP", "objc_setAssociatedObject"]
+- !private ["So18UITraitEnvironmentP", "onValueChange"]
+- !private ["So23UIUserActivityRestoringP", "AssociatedKeys"]
+- ["So23UIUserActivityRestoringP", "UISwitchChangeAction"]
+- !private ["So23UIUserActivityRestoringP", "isOn"]
+- !private ["So23UIUserActivityRestoringP", "objc_AssociationPolicy"]
+- !private ["So23UIUserActivityRestoringP", "objc_getAssociatedObject"]
+- !private ["So23UIUserActivityRestoringP", "objc_setAssociatedObject"]
+- !private ["So23UIUserActivityRestoringP", "onValueChange"]
+- !private ["So6UIViewC", "AssociatedKeys"]
+- ["So6UIViewC", "UISwitchChangeAction"]
+- !private ["So6UIViewC", "isOn"]
+- !private ["So6UIViewC", "objc_AssociationPolicy"]
+- !private ["So6UIViewC", "objc_getAssociatedObject"]
+- !private ["So6UIViewC", "objc_setAssociatedObject"]
+- ["So6UIViewC", "onValueChange"]
+- ["So6UIViewC", "valueChangeProceed"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "AssociatedKeys"]
+- ["13UIKitChaining06UIViewB8ProtocolP", "UISwitchChangeAction"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "isOn"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "objc_AssociationPolicy"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "objc_getAssociatedObject"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "objc_setAssociatedObject"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "onValueChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AssociatedKeys"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UISwitchChangeAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isOn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_AssociationPolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_getAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_setAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onValueChange"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "AssociatedKeys"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "UISwitchChangeAction"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isOn"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "objc_AssociationPolicy"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "objc_getAssociatedObject"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "objc_setAssociatedObject"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "onValueChange"]
+- !private ["So22objc_AssociationPolicyV", "OBJC_ASSOCIATION_RETAIN"]
+depends-nominal:
+- "So8UISwitchC13UIKitChainingE14AssociatedKeysV"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So8UISwitchC"
+- "13UIKitChaining08UISwitchB0P"
+- "13UIKitChaining20UISwitchChangeActionC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "13UIKitChaining06UIViewB8ProtocolP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+- !private "So22objc_AssociationPolicyV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/UIKitChaining/UIKitChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/build/UIKitChaining.build/Debug-iphonesimulator/UIKitChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a048a914bebcdafcfa565d47a34919ff"

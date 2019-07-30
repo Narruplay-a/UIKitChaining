@@ -1,0 +1,174 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UICollectionViewFlowLayoutChaining"
+provides-nominal:
+- "So26UICollectionViewFlowLayoutC"
+- "13UIKitChaining026UICollectionViewFlowLayoutB0P"
+provides-member:
+- ["So26UICollectionViewFlowLayoutC", ""]
+- ["13UIKitChaining026UICollectionViewFlowLayoutB0P", ""]
+- ["13UIKitChaining026UICollectionViewFlowLayoutB0P", "estimatedItemSize"]
+- ["13UIKitChaining026UICollectionViewFlowLayoutB0P", "scrollDirection"]
+- ["13UIKitChaining026UICollectionViewFlowLayoutB0P", "headerReferenceSize"]
+- ["13UIKitChaining026UICollectionViewFlowLayoutB0P", "footerReferenceSize"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGSize"
+- "CastingPrecedence"
+- "UICollectionView"
+- "UICollectionViewFlowLayout"
+- "UICollectionViewFlowLayoutChaining"
+depends-member:
+- ["So15CALayerDelegateP", "ScrollDirection"]
+- ["s7CVarArgP", "ScrollDirection"]
+- !private ["s7CVarArgP", "estimatedItemSize"]
+- !private ["s7CVarArgP", "footerReferenceSize"]
+- !private ["s7CVarArgP", "headerReferenceSize"]
+- !private ["s7CVarArgP", "scrollDirection"]
+- ["s28CustomDebugStringConvertibleP", "ScrollDirection"]
+- !private ["s28CustomDebugStringConvertibleP", "estimatedItemSize"]
+- !private ["s28CustomDebugStringConvertibleP", "footerReferenceSize"]
+- !private ["s28CustomDebugStringConvertibleP", "headerReferenceSize"]
+- !private ["s28CustomDebugStringConvertibleP", "scrollDirection"]
+- ["s23CustomStringConvertibleP", "ScrollDirection"]
+- !private ["s23CustomStringConvertibleP", "estimatedItemSize"]
+- !private ["s23CustomStringConvertibleP", "footerReferenceSize"]
+- !private ["s23CustomStringConvertibleP", "headerReferenceSize"]
+- !private ["s23CustomStringConvertibleP", "scrollDirection"]
+- ["SQ", "ScrollDirection"]
+- !private ["SQ", "estimatedItemSize"]
+- !private ["SQ", "footerReferenceSize"]
+- !private ["SQ", "headerReferenceSize"]
+- !private ["SQ", "scrollDirection"]
+- ["SH", "ScrollDirection"]
+- !private ["SH", "estimatedItemSize"]
+- !private ["SH", "footerReferenceSize"]
+- !private ["SH", "headerReferenceSize"]
+- !private ["SH", "scrollDirection"]
+- ["So8NSCodingP", "ScrollDirection"]
+- !private ["So8NSCodingP", "estimatedItemSize"]
+- !private ["So8NSCodingP", "footerReferenceSize"]
+- !private ["So8NSCodingP", "headerReferenceSize"]
+- !private ["So8NSCodingP", "scrollDirection"]
+- ["So8NSObjectC", "ScrollDirection"]
+- !private ["So8NSObjectC", "estimatedItemSize"]
+- !private ["So8NSObjectC", "footerReferenceSize"]
+- !private ["So8NSObjectC", "headerReferenceSize"]
+- !private ["So8NSObjectC", "scrollDirection"]
+- ["So8NSObjectP", "ScrollDirection"]
+- !private ["So8NSObjectP", "estimatedItemSize"]
+- !private ["So8NSObjectP", "footerReferenceSize"]
+- !private ["So8NSObjectP", "headerReferenceSize"]
+- !private ["So8NSObjectP", "scrollDirection"]
+- ["So29UIAccessibilityIdentificationP", "ScrollDirection"]
+- ["So12UIAppearanceP", "ScrollDirection"]
+- ["So21UIAppearanceContainerP", "ScrollDirection"]
+- ["So16UICollectionViewC", "ScrollDirection"]
+- ["13UIKitChaining016UICollectionViewB0P", "ScrollDirection"]
+- ["So26UICollectionViewFlowLayoutC", "deinit"]
+- !private ["So26UICollectionViewFlowLayoutC", "estimatedItemSize"]
+- !private ["So26UICollectionViewFlowLayoutC", "footerReferenceSize"]
+- !private ["So26UICollectionViewFlowLayoutC", "headerReferenceSize"]
+- !private ["So26UICollectionViewFlowLayoutC", "scrollDirection"]
+- ["13UIKitChaining026UICollectionViewFlowLayoutB0P", "CGSize"]
+- ["13UIKitChaining026UICollectionViewFlowLayoutB0P", "UICollectionView"]
+- !private ["13UIKitChaining026UICollectionViewFlowLayoutB0P", "UICollectionViewFlowLayout"]
+- ["13UIKitChaining026UICollectionViewFlowLayoutB0P", ""]
+- ["13UIKitChaining026UICollectionViewFlowLayoutB0P", "estimatedItemSize"]
+- ["13UIKitChaining026UICollectionViewFlowLayoutB0P", "footerReferenceSize"]
+- ["13UIKitChaining026UICollectionViewFlowLayoutB0P", "headerReferenceSize"]
+- ["13UIKitChaining026UICollectionViewFlowLayoutB0P", "scrollDirection"]
+- !private ["So22UICollectionViewLayoutC", "estimatedItemSize"]
+- !private ["So22UICollectionViewLayoutC", "footerReferenceSize"]
+- !private ["So22UICollectionViewLayoutC", "headerReferenceSize"]
+- !private ["So22UICollectionViewLayoutC", "scrollDirection"]
+- ["So17UICoordinateSpaceP", "ScrollDirection"]
+- ["So23UIDataSourceTranslatingP", "ScrollDirection"]
+- ["So13UIDynamicItemP", "ScrollDirection"]
+- ["So18UIFocusEnvironmentP", "ScrollDirection"]
+- ["So11UIFocusItemP", "ScrollDirection"]
+- ["So20UIFocusItemContainerP", "ScrollDirection"]
+- ["So30UIFocusItemScrollableContainerP", "ScrollDirection"]
+- ["So30UIPasteConfigurationSupportingP", "ScrollDirection"]
+- ["So11UIResponderC", "ScrollDirection"]
+- ["So30UIResponderStandardEditActionsP", "ScrollDirection"]
+- ["So12UIScrollViewC", "ScrollDirection"]
+- ["13UIKitChaining012UIScrollViewB8ProtocolP", "ScrollDirection"]
+- ["So35UISpringLoadedInteractionSupportingP", "ScrollDirection"]
+- ["So18UITraitEnvironmentP", "ScrollDirection"]
+- ["So23UIUserActivityRestoringP", "ScrollDirection"]
+- ["So6UIViewC", "ScrollDirection"]
+- ["13UIKitChaining06UIViewB8ProtocolP", "ScrollDirection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ScrollDirection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "estimatedItemSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "footerReferenceSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "headerReferenceSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scrollDirection"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "ScrollDirection"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So16UICollectionViewC"
+- "13UIKitChaining016UICollectionViewB0P"
+- "So26UICollectionViewFlowLayoutC"
+- "13UIKitChaining026UICollectionViewFlowLayoutB0P"
+- !private "So22UICollectionViewLayoutC"
+- "So17UICoordinateSpaceP"
+- "So23UIDataSourceTranslatingP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIFocusItemScrollableContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- "13UIKitChaining012UIScrollViewB8ProtocolP"
+- "So35UISpringLoadedInteractionSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "13UIKitChaining06UIViewB8ProtocolP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/UIKitChaining/UIKitChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/build/UIKitChaining.build/Debug-iphoneos/UIKitChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4cea07d2db0fcd20c6232e1f48e23ed9"

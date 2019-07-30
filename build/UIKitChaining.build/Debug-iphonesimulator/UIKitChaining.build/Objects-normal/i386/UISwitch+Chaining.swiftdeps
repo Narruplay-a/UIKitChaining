@@ -1,0 +1,278 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UISwitchChaining"
+provides-nominal:
+- "So8UISwitchC"
+- "13UIKitChaining08UISwitchB0P"
+provides-member:
+- ["So8UISwitchC", ""]
+- ["13UIKitChaining08UISwitchB0P", ""]
+- ["13UIKitChaining08UISwitchB0P", "isOn"]
+- ["13UIKitChaining08UISwitchB0P", "thumbTintColor"]
+- ["13UIKitChaining08UISwitchB0P", "onTintColor"]
+- ["13UIKitChaining08UISwitchB0P", "onValueChanged"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "UIColor"
+- "UISwitch"
+- "UISwitchChaining"
+- !private "UISwitchChangeAction"
+- "Void"
+depends-member:
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "isOn"]
+- !private ["So15CALayerDelegateP", "onTintColor"]
+- !private ["So15CALayerDelegateP", "onValueChange"]
+- !private ["So15CALayerDelegateP", "thumbTintColor"]
+- !private ["So15CALayerDelegateP", "valueChangeProceed"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "isOn"]
+- !private ["s7CVarArgP", "onTintColor"]
+- !private ["s7CVarArgP", "onValueChange"]
+- !private ["s7CVarArgP", "thumbTintColor"]
+- !private ["s7CVarArgP", "valueChangeProceed"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "isOn"]
+- !private ["s28CustomDebugStringConvertibleP", "onTintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "onValueChange"]
+- !private ["s28CustomDebugStringConvertibleP", "thumbTintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "valueChangeProceed"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "isOn"]
+- !private ["s23CustomStringConvertibleP", "onTintColor"]
+- !private ["s23CustomStringConvertibleP", "onValueChange"]
+- !private ["s23CustomStringConvertibleP", "thumbTintColor"]
+- !private ["s23CustomStringConvertibleP", "valueChangeProceed"]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "isOn"]
+- !private ["SQ", "onTintColor"]
+- !private ["SQ", "onValueChange"]
+- !private ["SQ", "thumbTintColor"]
+- !private ["SQ", "touchUpInside"]
+- !private ["SQ", "valueChangeProceed"]
+- !private ["So15UIControlEventsV", "touchUpInside"]
+- !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
+- !private ["SH", "addTarget"]
+- !private ["SH", "isOn"]
+- !private ["SH", "onTintColor"]
+- !private ["SH", "onValueChange"]
+- !private ["SH", "thumbTintColor"]
+- !private ["SH", "valueChangeProceed"]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSCodingP", "isOn"]
+- !private ["So8NSCodingP", "onTintColor"]
+- !private ["So8NSCodingP", "onValueChange"]
+- !private ["So8NSCodingP", "thumbTintColor"]
+- !private ["So8NSCodingP", "valueChangeProceed"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "isOn"]
+- !private ["So8NSObjectC", "onTintColor"]
+- !private ["So8NSObjectC", "onValueChange"]
+- !private ["So8NSObjectC", "thumbTintColor"]
+- !private ["So8NSObjectC", "valueChangeProceed"]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "isOn"]
+- !private ["So8NSObjectP", "onTintColor"]
+- !private ["So8NSObjectP", "onValueChange"]
+- !private ["So8NSObjectP", "thumbTintColor"]
+- !private ["So8NSObjectP", "valueChangeProceed"]
+- !private ["s9OptionSetP", "touchUpInside"]
+- !private ["SY", "touchUpInside"]
+- !private ["s10SetAlgebraP", "touchUpInside"]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "isOn"]
+- !private ["So29UIAccessibilityIdentificationP", "onTintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "onValueChange"]
+- !private ["So29UIAccessibilityIdentificationP", "thumbTintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "valueChangeProceed"]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "isOn"]
+- !private ["So12UIAppearanceP", "onTintColor"]
+- !private ["So12UIAppearanceP", "onValueChange"]
+- !private ["So12UIAppearanceP", "thumbTintColor"]
+- !private ["So12UIAppearanceP", "valueChangeProceed"]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "isOn"]
+- !private ["So21UIAppearanceContainerP", "onTintColor"]
+- !private ["So21UIAppearanceContainerP", "onValueChange"]
+- !private ["So21UIAppearanceContainerP", "thumbTintColor"]
+- !private ["So21UIAppearanceContainerP", "valueChangeProceed"]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["So9UIControlC", "isOn"]
+- !private ["So9UIControlC", "onTintColor"]
+- !private ["So9UIControlC", "onValueChange"]
+- !private ["So9UIControlC", "thumbTintColor"]
+- !private ["So9UIControlC", "valueChangeProceed"]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "isOn"]
+- !private ["So17UICoordinateSpaceP", "onTintColor"]
+- !private ["So17UICoordinateSpaceP", "onValueChange"]
+- !private ["So17UICoordinateSpaceP", "thumbTintColor"]
+- !private ["So17UICoordinateSpaceP", "valueChangeProceed"]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "isOn"]
+- !private ["So13UIDynamicItemP", "onTintColor"]
+- !private ["So13UIDynamicItemP", "onValueChange"]
+- !private ["So13UIDynamicItemP", "thumbTintColor"]
+- !private ["So13UIDynamicItemP", "valueChangeProceed"]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "isOn"]
+- !private ["So18UIFocusEnvironmentP", "onTintColor"]
+- !private ["So18UIFocusEnvironmentP", "onValueChange"]
+- !private ["So18UIFocusEnvironmentP", "thumbTintColor"]
+- !private ["So18UIFocusEnvironmentP", "valueChangeProceed"]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "isOn"]
+- !private ["So11UIFocusItemP", "onTintColor"]
+- !private ["So11UIFocusItemP", "onValueChange"]
+- !private ["So11UIFocusItemP", "thumbTintColor"]
+- !private ["So11UIFocusItemP", "valueChangeProceed"]
+- !private ["So20UIFocusItemContainerP", "addTarget"]
+- !private ["So20UIFocusItemContainerP", "isOn"]
+- !private ["So20UIFocusItemContainerP", "onTintColor"]
+- !private ["So20UIFocusItemContainerP", "onValueChange"]
+- !private ["So20UIFocusItemContainerP", "thumbTintColor"]
+- !private ["So20UIFocusItemContainerP", "valueChangeProceed"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "isOn"]
+- !private ["So30UIPasteConfigurationSupportingP", "onTintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "onValueChange"]
+- !private ["So30UIPasteConfigurationSupportingP", "thumbTintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "valueChangeProceed"]
+- !private ["So11UIResponderC", "addTarget"]
+- !private ["So11UIResponderC", "isOn"]
+- !private ["So11UIResponderC", "onTintColor"]
+- !private ["So11UIResponderC", "onValueChange"]
+- !private ["So11UIResponderC", "thumbTintColor"]
+- !private ["So11UIResponderC", "valueChangeProceed"]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "isOn"]
+- !private ["So30UIResponderStandardEditActionsP", "onTintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "onValueChange"]
+- !private ["So30UIResponderStandardEditActionsP", "thumbTintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "valueChangeProceed"]
+- !private ["So8UISwitchC", "addTarget"]
+- ["So8UISwitchC", "deinit"]
+- !private ["So8UISwitchC", "isOn"]
+- !private ["So8UISwitchC", "onTintColor"]
+- !private ["So8UISwitchC", "onValueChange"]
+- !private ["So8UISwitchC", "thumbTintColor"]
+- !private ["So8UISwitchC", "valueChangeProceed"]
+- ["13UIKitChaining08UISwitchB0P", "Bool"]
+- ["13UIKitChaining08UISwitchB0P", "UIColor"]
+- !private ["13UIKitChaining08UISwitchB0P", "UISwitch"]
+- !private ["13UIKitChaining08UISwitchB0P", "UISwitchChangeAction"]
+- ["13UIKitChaining08UISwitchB0P", "Void"]
+- ["13UIKitChaining08UISwitchB0P", ""]
+- !private ["13UIKitChaining08UISwitchB0P", "addTarget"]
+- ["13UIKitChaining08UISwitchB0P", "isOn"]
+- ["13UIKitChaining08UISwitchB0P", "onTintColor"]
+- !private ["13UIKitChaining08UISwitchB0P", "onValueChange"]
+- ["13UIKitChaining08UISwitchB0P", "onValueChanged"]
+- ["13UIKitChaining08UISwitchB0P", "thumbTintColor"]
+- !private ["13UIKitChaining08UISwitchB0P", "valueChangeProceed"]
+- !private ["13UIKitChaining20UISwitchChangeActionC", "init"]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "isOn"]
+- !private ["So18UITraitEnvironmentP", "onTintColor"]
+- !private ["So18UITraitEnvironmentP", "onValueChange"]
+- !private ["So18UITraitEnvironmentP", "thumbTintColor"]
+- !private ["So18UITraitEnvironmentP", "valueChangeProceed"]
+- !private ["So23UIUserActivityRestoringP", "addTarget"]
+- !private ["So23UIUserActivityRestoringP", "isOn"]
+- !private ["So23UIUserActivityRestoringP", "onTintColor"]
+- !private ["So23UIUserActivityRestoringP", "onValueChange"]
+- !private ["So23UIUserActivityRestoringP", "thumbTintColor"]
+- !private ["So23UIUserActivityRestoringP", "valueChangeProceed"]
+- !private ["So6UIViewC", "addTarget"]
+- !private ["So6UIViewC", "isOn"]
+- !private ["So6UIViewC", "onTintColor"]
+- !private ["So6UIViewC", "onValueChange"]
+- !private ["So6UIViewC", "thumbTintColor"]
+- !private ["So6UIViewC", "valueChangeProceed"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "addTarget"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "isOn"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "onTintColor"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "onValueChange"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "thumbTintColor"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "valueChangeProceed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isOn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onTintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onValueChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "thumbTintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "valueChangeProceed"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isOn"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "onTintColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "onValueChange"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "thumbTintColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "valueChangeProceed"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "So15UIControlEventsV"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "SY"
+- !private "s10SetAlgebraP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- "So8UISwitchC"
+- "13UIKitChaining08UISwitchB0P"
+- !private "13UIKitChaining20UISwitchChangeActionC"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "13UIKitChaining06UIViewB8ProtocolP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/UIKitChaining/UIKitChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/build/UIKitChaining.build/Debug-iphonesimulator/UIKitChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "509d546c4af04b4ace0a731039e71dbc"

@@ -1,0 +1,199 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UINavigationItemChaining"
+provides-nominal:
+- "So16UINavigationItemC"
+- "13UIKitChaining016UINavigationItemB0P"
+provides-member:
+- ["So16UINavigationItemC", ""]
+- ["13UIKitChaining016UINavigationItemB0P", ""]
+- ["13UIKitChaining016UINavigationItemB0P", "backBarButtonItem"]
+- ["13UIKitChaining016UINavigationItemB0P", "hidesBackButton"]
+- ["13UIKitChaining016UINavigationItemB0P", "hidesSearchBarWhenScrolling"]
+- ["13UIKitChaining016UINavigationItemB0P", "leftBarButtonItem"]
+- ["13UIKitChaining016UINavigationItemB0P", "rightBarButtonItem"]
+- ["13UIKitChaining016UINavigationItemB0P", "leftBarButtonItems"]
+- ["13UIKitChaining016UINavigationItemB0P", "rightBarButtonItems"]
+- ["13UIKitChaining016UINavigationItemB0P", "largeTitleDisplayMode"]
+- ["13UIKitChaining016UINavigationItemB0P", "title"]
+- ["13UIKitChaining016UINavigationItemB0P", "titleView"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "String"
+- "UIBarButtonItem"
+- "UINavigationItem"
+- "UINavigationItemChaining"
+- "UIView"
+depends-member:
+- ["s7CVarArgP", "LargeTitleDisplayMode"]
+- !private ["s7CVarArgP", "backBarButtonItem"]
+- !private ["s7CVarArgP", "hidesBackButton"]
+- !private ["s7CVarArgP", "hidesSearchBarWhenScrolling"]
+- !private ["s7CVarArgP", "largeTitleDisplayMode"]
+- !private ["s7CVarArgP", "leftBarButtonItem"]
+- !private ["s7CVarArgP", "leftBarButtonItems"]
+- !private ["s7CVarArgP", "rightBarButtonItem"]
+- !private ["s7CVarArgP", "rightBarButtonItems"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "titleView"]
+- ["s28CustomDebugStringConvertibleP", "LargeTitleDisplayMode"]
+- !private ["s28CustomDebugStringConvertibleP", "backBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "hidesBackButton"]
+- !private ["s28CustomDebugStringConvertibleP", "hidesSearchBarWhenScrolling"]
+- !private ["s28CustomDebugStringConvertibleP", "largeTitleDisplayMode"]
+- !private ["s28CustomDebugStringConvertibleP", "leftBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "leftBarButtonItems"]
+- !private ["s28CustomDebugStringConvertibleP", "rightBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "rightBarButtonItems"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "titleView"]
+- ["s23CustomStringConvertibleP", "LargeTitleDisplayMode"]
+- !private ["s23CustomStringConvertibleP", "backBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "hidesBackButton"]
+- !private ["s23CustomStringConvertibleP", "hidesSearchBarWhenScrolling"]
+- !private ["s23CustomStringConvertibleP", "largeTitleDisplayMode"]
+- !private ["s23CustomStringConvertibleP", "leftBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "leftBarButtonItems"]
+- !private ["s23CustomStringConvertibleP", "rightBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "rightBarButtonItems"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "titleView"]
+- ["SQ", "LargeTitleDisplayMode"]
+- !private ["SQ", "backBarButtonItem"]
+- !private ["SQ", "hidesBackButton"]
+- !private ["SQ", "hidesSearchBarWhenScrolling"]
+- !private ["SQ", "largeTitleDisplayMode"]
+- !private ["SQ", "leftBarButtonItem"]
+- !private ["SQ", "leftBarButtonItems"]
+- !private ["SQ", "rightBarButtonItem"]
+- !private ["SQ", "rightBarButtonItems"]
+- !private ["SQ", "title"]
+- !private ["SQ", "titleView"]
+- ["SH", "LargeTitleDisplayMode"]
+- !private ["SH", "backBarButtonItem"]
+- !private ["SH", "hidesBackButton"]
+- !private ["SH", "hidesSearchBarWhenScrolling"]
+- !private ["SH", "largeTitleDisplayMode"]
+- !private ["SH", "leftBarButtonItem"]
+- !private ["SH", "leftBarButtonItems"]
+- !private ["SH", "rightBarButtonItem"]
+- !private ["SH", "rightBarButtonItems"]
+- !private ["SH", "title"]
+- !private ["SH", "titleView"]
+- ["So8NSCodingP", "LargeTitleDisplayMode"]
+- !private ["So8NSCodingP", "backBarButtonItem"]
+- !private ["So8NSCodingP", "hidesBackButton"]
+- !private ["So8NSCodingP", "hidesSearchBarWhenScrolling"]
+- !private ["So8NSCodingP", "largeTitleDisplayMode"]
+- !private ["So8NSCodingP", "leftBarButtonItem"]
+- !private ["So8NSCodingP", "leftBarButtonItems"]
+- !private ["So8NSCodingP", "rightBarButtonItem"]
+- !private ["So8NSCodingP", "rightBarButtonItems"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "titleView"]
+- ["So8NSObjectC", "LargeTitleDisplayMode"]
+- !private ["So8NSObjectC", "backBarButtonItem"]
+- !private ["So8NSObjectC", "hidesBackButton"]
+- !private ["So8NSObjectC", "hidesSearchBarWhenScrolling"]
+- !private ["So8NSObjectC", "largeTitleDisplayMode"]
+- !private ["So8NSObjectC", "leftBarButtonItem"]
+- !private ["So8NSObjectC", "leftBarButtonItems"]
+- !private ["So8NSObjectC", "rightBarButtonItem"]
+- !private ["So8NSObjectC", "rightBarButtonItems"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "titleView"]
+- ["So8NSObjectP", "LargeTitleDisplayMode"]
+- !private ["So8NSObjectP", "backBarButtonItem"]
+- !private ["So8NSObjectP", "hidesBackButton"]
+- !private ["So8NSObjectP", "hidesSearchBarWhenScrolling"]
+- !private ["So8NSObjectP", "largeTitleDisplayMode"]
+- !private ["So8NSObjectP", "leftBarButtonItem"]
+- !private ["So8NSObjectP", "leftBarButtonItems"]
+- !private ["So8NSObjectP", "rightBarButtonItem"]
+- !private ["So8NSObjectP", "rightBarButtonItems"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So8NSObjectP", "titleView"]
+- ["So16UINavigationItemC", "LargeTitleDisplayMode"]
+- !private ["So16UINavigationItemC", "backBarButtonItem"]
+- ["So16UINavigationItemC", "deinit"]
+- !private ["So16UINavigationItemC", "hidesBackButton"]
+- !private ["So16UINavigationItemC", "hidesSearchBarWhenScrolling"]
+- !private ["So16UINavigationItemC", "largeTitleDisplayMode"]
+- !private ["So16UINavigationItemC", "leftBarButtonItem"]
+- !private ["So16UINavigationItemC", "leftBarButtonItems"]
+- !private ["So16UINavigationItemC", "rightBarButtonItem"]
+- !private ["So16UINavigationItemC", "rightBarButtonItems"]
+- !private ["So16UINavigationItemC", "title"]
+- !private ["So16UINavigationItemC", "titleView"]
+- ["13UIKitChaining016UINavigationItemB0P", "Bool"]
+- ["13UIKitChaining016UINavigationItemB0P", "LargeTitleDisplayMode"]
+- ["13UIKitChaining016UINavigationItemB0P", "String"]
+- ["13UIKitChaining016UINavigationItemB0P", "UIBarButtonItem"]
+- ["13UIKitChaining016UINavigationItemB0P", "UINavigationItem"]
+- ["13UIKitChaining016UINavigationItemB0P", "UIView"]
+- ["13UIKitChaining016UINavigationItemB0P", ""]
+- ["13UIKitChaining016UINavigationItemB0P", "backBarButtonItem"]
+- ["13UIKitChaining016UINavigationItemB0P", "hidesBackButton"]
+- ["13UIKitChaining016UINavigationItemB0P", "hidesSearchBarWhenScrolling"]
+- ["13UIKitChaining016UINavigationItemB0P", "largeTitleDisplayMode"]
+- ["13UIKitChaining016UINavigationItemB0P", "leftBarButtonItem"]
+- ["13UIKitChaining016UINavigationItemB0P", "leftBarButtonItems"]
+- ["13UIKitChaining016UINavigationItemB0P", "rightBarButtonItem"]
+- ["13UIKitChaining016UINavigationItemB0P", "rightBarButtonItems"]
+- ["13UIKitChaining016UINavigationItemB0P", "title"]
+- ["13UIKitChaining016UINavigationItemB0P", "titleView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LargeTitleDisplayMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hidesBackButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hidesSearchBarWhenScrolling"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "largeTitleDisplayMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftBarButtonItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightBarButtonItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleView"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So16UINavigationItemC"
+- "13UIKitChaining016UINavigationItemB0P"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/UIKitChaining/UIKitChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/build/UIKitChaining.build/Debug-iphoneos/UIKitChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "08b935c6346eb5c11b8f80b6d6c8835c"

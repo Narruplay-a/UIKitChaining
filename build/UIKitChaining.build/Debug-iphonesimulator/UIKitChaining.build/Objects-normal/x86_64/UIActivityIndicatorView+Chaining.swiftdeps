@@ -1,0 +1,201 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UIActivityIndicatorViewChaining"
+provides-nominal:
+- "So23UIActivityIndicatorViewC"
+- "13UIKitChaining023UIActivityIndicatorViewB0P"
+provides-member:
+- ["So23UIActivityIndicatorViewC", ""]
+- ["13UIKitChaining023UIActivityIndicatorViewB0P", ""]
+- ["13UIKitChaining023UIActivityIndicatorViewB0P", "style"]
+- ["13UIKitChaining023UIActivityIndicatorViewB0P", "hidesWhenStopped"]
+- ["13UIKitChaining023UIActivityIndicatorViewB0P", "color"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "UIActivityIndicatorView"
+- "UIActivityIndicatorViewChaining"
+- "UIColor"
+- "UIViewControllerChaining"
+depends-member:
+- ["So15CALayerDelegateP", "Style"]
+- !private ["So15CALayerDelegateP", "color"]
+- !private ["So15CALayerDelegateP", "hidesWhenStopped"]
+- !private ["So15CALayerDelegateP", "style"]
+- ["s7CVarArgP", "Style"]
+- !private ["s7CVarArgP", "color"]
+- !private ["s7CVarArgP", "hidesWhenStopped"]
+- !private ["s7CVarArgP", "style"]
+- ["s28CustomDebugStringConvertibleP", "Style"]
+- !private ["s28CustomDebugStringConvertibleP", "color"]
+- !private ["s28CustomDebugStringConvertibleP", "hidesWhenStopped"]
+- !private ["s28CustomDebugStringConvertibleP", "style"]
+- ["s23CustomStringConvertibleP", "Style"]
+- !private ["s23CustomStringConvertibleP", "color"]
+- !private ["s23CustomStringConvertibleP", "hidesWhenStopped"]
+- !private ["s23CustomStringConvertibleP", "style"]
+- ["SQ", "Style"]
+- !private ["SQ", "color"]
+- !private ["SQ", "hidesWhenStopped"]
+- !private ["SQ", "style"]
+- ["SH", "Style"]
+- !private ["SH", "color"]
+- !private ["SH", "hidesWhenStopped"]
+- !private ["SH", "style"]
+- ["So8NSCodingP", "Style"]
+- !private ["So8NSCodingP", "color"]
+- !private ["So8NSCodingP", "hidesWhenStopped"]
+- !private ["So8NSCodingP", "style"]
+- ["So8NSObjectC", "Style"]
+- !private ["So8NSObjectC", "color"]
+- !private ["So8NSObjectC", "hidesWhenStopped"]
+- !private ["So8NSObjectC", "style"]
+- ["So8NSObjectP", "Style"]
+- !private ["So8NSObjectP", "color"]
+- !private ["So8NSObjectP", "hidesWhenStopped"]
+- !private ["So8NSObjectP", "style"]
+- ["So29UIAccessibilityIdentificationP", "Style"]
+- !private ["So29UIAccessibilityIdentificationP", "color"]
+- !private ["So29UIAccessibilityIdentificationP", "hidesWhenStopped"]
+- !private ["So29UIAccessibilityIdentificationP", "style"]
+- ["So23UIActivityIndicatorViewC", "Style"]
+- !private ["So23UIActivityIndicatorViewC", "color"]
+- ["So23UIActivityIndicatorViewC", "deinit"]
+- !private ["So23UIActivityIndicatorViewC", "hidesWhenStopped"]
+- !private ["So23UIActivityIndicatorViewC", "style"]
+- ["13UIKitChaining023UIActivityIndicatorViewB0P", "Bool"]
+- ["13UIKitChaining023UIActivityIndicatorViewB0P", "UIActivityIndicatorView"]
+- ["13UIKitChaining023UIActivityIndicatorViewB0P", "UIColor"]
+- ["13UIKitChaining023UIActivityIndicatorViewB0P", "color"]
+- ["13UIKitChaining023UIActivityIndicatorViewB0P", "hidesWhenStopped"]
+- ["13UIKitChaining023UIActivityIndicatorViewB0P", "style"]
+- ["So12UIAppearanceP", "Style"]
+- !private ["So12UIAppearanceP", "color"]
+- !private ["So12UIAppearanceP", "hidesWhenStopped"]
+- !private ["So12UIAppearanceP", "style"]
+- ["So21UIAppearanceContainerP", "Style"]
+- !private ["So21UIAppearanceContainerP", "color"]
+- !private ["So21UIAppearanceContainerP", "hidesWhenStopped"]
+- !private ["So21UIAppearanceContainerP", "style"]
+- ["So17UICoordinateSpaceP", "Style"]
+- !private ["So17UICoordinateSpaceP", "color"]
+- !private ["So17UICoordinateSpaceP", "hidesWhenStopped"]
+- !private ["So17UICoordinateSpaceP", "style"]
+- ["So13UIDynamicItemP", "Style"]
+- !private ["So13UIDynamicItemP", "color"]
+- !private ["So13UIDynamicItemP", "hidesWhenStopped"]
+- !private ["So13UIDynamicItemP", "style"]
+- ["So18UIFocusEnvironmentP", "Style"]
+- !private ["So18UIFocusEnvironmentP", "color"]
+- !private ["So18UIFocusEnvironmentP", "hidesWhenStopped"]
+- !private ["So18UIFocusEnvironmentP", "style"]
+- ["So11UIFocusItemP", "Style"]
+- !private ["So11UIFocusItemP", "color"]
+- !private ["So11UIFocusItemP", "hidesWhenStopped"]
+- !private ["So11UIFocusItemP", "style"]
+- ["So20UIFocusItemContainerP", "Style"]
+- !private ["So20UIFocusItemContainerP", "color"]
+- !private ["So20UIFocusItemContainerP", "hidesWhenStopped"]
+- !private ["So20UIFocusItemContainerP", "style"]
+- ["So30UIPasteConfigurationSupportingP", "Style"]
+- !private ["So30UIPasteConfigurationSupportingP", "color"]
+- !private ["So30UIPasteConfigurationSupportingP", "hidesWhenStopped"]
+- !private ["So30UIPasteConfigurationSupportingP", "style"]
+- ["So11UIResponderC", "Style"]
+- !private ["So11UIResponderC", "color"]
+- !private ["So11UIResponderC", "hidesWhenStopped"]
+- !private ["So11UIResponderC", "style"]
+- ["So30UIResponderStandardEditActionsP", "Style"]
+- !private ["So30UIResponderStandardEditActionsP", "color"]
+- !private ["So30UIResponderStandardEditActionsP", "hidesWhenStopped"]
+- !private ["So30UIResponderStandardEditActionsP", "style"]
+- ["So18UITraitEnvironmentP", "Style"]
+- !private ["So18UITraitEnvironmentP", "color"]
+- !private ["So18UITraitEnvironmentP", "hidesWhenStopped"]
+- !private ["So18UITraitEnvironmentP", "style"]
+- ["So23UIUserActivityRestoringP", "Style"]
+- !private ["So23UIUserActivityRestoringP", "color"]
+- !private ["So23UIUserActivityRestoringP", "hidesWhenStopped"]
+- !private ["So23UIUserActivityRestoringP", "style"]
+- ["So6UIViewC", "Style"]
+- !private ["So6UIViewC", "color"]
+- !private ["So6UIViewC", "hidesWhenStopped"]
+- !private ["So6UIViewC", "style"]
+- ["13UIKitChaining06UIViewB8ProtocolP", "Style"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "color"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "hidesWhenStopped"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "style"]
+- ["13UIKitChaining016UIViewControllerB0P", "Style"]
+- ["13UIKitChaining016UIViewControllerB0P", ""]
+- !private ["13UIKitChaining016UIViewControllerB0P", "color"]
+- !private ["13UIKitChaining016UIViewControllerB0P", "hidesWhenStopped"]
+- !private ["13UIKitChaining016UIViewControllerB0P", "style"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "color"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hidesWhenStopped"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "style"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "Style"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "color"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "hidesWhenStopped"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "style"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So29UIAccessibilityIdentificationP"
+- "So23UIActivityIndicatorViewC"
+- "13UIKitChaining023UIActivityIndicatorViewB0P"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "13UIKitChaining06UIViewB8ProtocolP"
+- "13UIKitChaining016UIViewControllerB0P"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/UIKitChaining/UIKitChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/build/UIKitChaining.build/Debug-iphonesimulator/UIKitChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bd8c36a3400cb9e63d5ce163dc439e2a"

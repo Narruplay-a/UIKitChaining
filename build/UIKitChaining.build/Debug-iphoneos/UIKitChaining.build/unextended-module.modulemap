@@ -1,0 +1,10 @@
+framework module UIKitChaining {
+  umbrella header "UIKitChaining.h"
+
+  export *
+  module * { export * }
+}
+
+module UIKitChaining.__Swift {
+    exclude header "UIKitChaining-Swift.h"
+}

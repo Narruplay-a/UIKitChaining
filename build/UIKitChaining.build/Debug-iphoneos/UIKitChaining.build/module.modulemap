@@ -1,0 +1,11 @@
+framework module UIKitChaining {
+  umbrella header "UIKitChaining.h"
+
+  export *
+  module * { export * }
+}
+
+module UIKitChaining.Swift {
+    header "UIKitChaining-Swift.h"
+    requires objc
+}
