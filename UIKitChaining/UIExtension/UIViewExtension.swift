@@ -9,6 +9,18 @@ internal class TouchAction{
 }
 
 public extension UIView {
+    var lastSubview: UIView? {
+        get {
+            return subviews.last
+        }
+    }
+    
+    var beforeLastSubview: UIView? {
+        get {
+            return subviews.count > 1 ? subviews[self.subviews.count - 2] : nil
+        }
+    }
+    
     func firstResponderSubview() -> UIView? {
         for view in subviews {
             if view.isFirstResponder { return view }
@@ -437,6 +449,7 @@ public extension UIView {
         static var borderColor: UIColor = .black
         static var borderWidth: CGFloat = 1.0
         static var touchAction: TouchAction = TouchAction({})
+        static var layoutProxy: LayoutProxy!
     }
     
     @IBInspectable var id: String {
@@ -461,7 +474,7 @@ public extension UIView {
     @IBInspectable var layerBorderColor: UIColor {
         get {
             let borderColor = objc_getAssociatedObject(self, &AssociatedKeys.borderColor) as? UIColor
-            return borderColor != nil ? borderColor! : UIColor.colorFromHex(0xe6e6e6)
+            return borderColor != nil ? borderColor! : UIColor.black
         }
         set {
             layer.borderColor = newValue.cgColor
@@ -480,6 +493,16 @@ public extension UIView {
         }
     }
     
+    var layoutProxy: LayoutProxy {
+        get {
+            let proxy = objc_getAssociatedObject(self, &AssociatedKeys.layoutProxy) as? LayoutProxy
+            return proxy == nil ? LayoutProxy(self) : proxy!
+        }
+        set {
+            objc_setAssociatedObject(self, &AssociatedKeys.layoutProxy, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN)
+        }
+    }
+    
     internal var touchAction: TouchAction {
         get {
             return objc_getAssociatedObject(self, &AssociatedKeys.touchAction) as? TouchAction ?? TouchAction({})
@@ -487,5 +510,139 @@ public extension UIView {
         set {
             objc_setAssociatedObject(self, &AssociatedKeys.touchAction, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN)
         }
+    }
+}
+
+public enum AKDimension {
+    case width
+    case height
+    
+    func getAttribute() -> NSLayoutConstraint.Attribute{
+        if self == .width {
+            return NSLayoutConstraint.Attribute.width
+        } else {
+            return NSLayoutConstraint.Attribute.height
+        }
+    }
+}
+
+public class LayoutProxy {
+    var view: UIView!
+    
+    init(_ view: UIView) {
+        self.view = view
+    }
+    
+    @discardableResult
+    func sideToSide(_ side: NSLayoutConstraint.Attribute, toView: UIView?, toSide: NSLayoutConstraint.Attribute, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal, multiplier: CGFloat = 1) -> NSLayoutConstraint? {
+        guard let superview = view.superview else {
+            ConstraintLogger.logSuperviewError(view)
+            return nil }
+        guard let toView = toView else {
+            ConstraintLogger.logError(view, attribute: side)
+            return nil }
+        let offset = side == .bottom || side == .right ? -offset : offset
+        let const = NSLayoutConstraint(item: view, attribute: side, relatedBy: relation, toItem: toView, attribute: toSide, multiplier: multiplier, constant: offset)
+        superview.addConstraint(const)
+        return const
+    }
+    
+    @discardableResult
+    func setDimension(_ dimension: AKDimension, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+        guard let _ = view.superview else {
+            ConstraintLogger.logSuperviewError(view)
+            return nil }
+        let const = NSLayoutConstraint(item: view, attribute: dimension.getAttribute(), relatedBy: relation, toItem: nil, attribute: dimension.getAttribute(), multiplier: 1, constant: offset)
+        view.addConstraint(const)
+        return const
+    }
+    
+    @discardableResult
+    func alignDimension(_ dimension: AKDimension, toView: UIView?, toDimesion: AKDimension? = nil, multiplier: CGFloat, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+        guard let superview = view.superview else {
+            ConstraintLogger.logSuperviewError(view)
+            return nil }
+        guard let toView = toView else {
+            ConstraintLogger.logError(view, attribute: dimension == .width ? .width : .height)
+            return nil }
+        let const = NSLayoutConstraint(item: view, attribute: dimension.getAttribute(), relatedBy: relation, toItem: toView, attribute: (toDimesion ?? dimension).getAttribute(), multiplier: multiplier, constant: offset)
+        superview.addConstraint(const)
+        return const
+    }
+    
+    @discardableResult
+    func alignVertical(_ toView: UIView?, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+        guard let toView = toView else {
+            ConstraintLogger.logError(view, attribute: .centerX)
+            return nil }
+        guard let superview = view.superview else {
+            ConstraintLogger.logSuperviewError(view)
+            return nil }
+        let const = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.centerX, relatedBy: relation, toItem: toView, attribute: NSLayoutConstraint.Attribute.centerX, multiplier: 1, constant: offset)
+        superview.addConstraint(const)
+        return const
+    }
+    
+    @discardableResult
+    func alignVerticalToSuperview(_ offset: CGFloat) -> NSLayoutConstraint? {
+        guard let superview = view.superview else {
+            ConstraintLogger.logError(view, attribute: .centerX)
+            return nil }
+        let const = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.centerX, relatedBy: .equal, toItem: superview, attribute: NSLayoutConstraint.Attribute.centerX, multiplier: 1, constant: offset)
+        superview.addConstraint(const)
+        return const
+    }
+    
+    @discardableResult
+    func alignHorizontal(_ toView: UIView?, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+        guard let toView = toView else {
+            ConstraintLogger.logError(view, attribute: .centerY)
+            return nil }
+        guard let superview = view.superview else {
+            ConstraintLogger.logSuperviewError(view)
+            return nil }
+        let const = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.centerY, relatedBy: relation, toItem: toView, attribute: NSLayoutConstraint.Attribute.centerY, multiplier: 1, constant: offset)
+        superview.addConstraint(const)
+        return const
+    }
+    
+    @discardableResult
+    func alignHorizontalToSuperview(_ offset: CGFloat) -> NSLayoutConstraint? {
+        guard let superview = view.superview else {
+            ConstraintLogger.logError(view, attribute: .centerY)
+            return nil }
+        let const = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.centerY, relatedBy: .equal, toItem: superview, attribute: NSLayoutConstraint.Attribute.centerY, multiplier: 1, constant: offset)
+        superview.addConstraint(const)
+        return const
+    }
+    
+    @available(iOS 11.0, *)
+    @discardableResult
+    func toTopSafeLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+        let const = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.top, relatedBy: relation, toItem: controller.view.safeAreaLayoutGuide.topAnchor, attribute: NSLayoutConstraint.Attribute.bottom, multiplier: 1, constant: offset)
+        controller.view.addConstraint(const)
+        return const
+    }
+    
+    @available(iOS 11.0, *)
+    @discardableResult
+    func toBottomSafeLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+        let const = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.bottom, relatedBy: relation, toItem: controller.view.safeAreaLayoutGuide.bottomAnchor, attribute: NSLayoutConstraint.Attribute.bottom, multiplier: 1, constant: offset)
+        controller.view.addConstraint(const)
+        return const
+    }
+    
+    @discardableResult
+    func toTopLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+        let const = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.top, relatedBy: relation, toItem: controller.topLayoutGuide, attribute: NSLayoutConstraint.Attribute.bottom, multiplier: 1, constant: offset)
+        controller.view.addConstraint(const)
+        return const
+    }
+    
+    @discardableResult
+    func toBottomLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+        let const = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.bottom, relatedBy: relation, toItem: controller.bottomLayoutGuide, attribute: NSLayoutConstraint.Attribute.bottom, multiplier: 1, constant: -offset)
+        controller.view.addConstraint(const)
+        return const
     }
 }

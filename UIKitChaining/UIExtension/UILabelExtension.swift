@@ -4,7 +4,7 @@ public extension UILabel {
     private struct AssociatedKeys {
         static var fontSize: CGFloat = 0
     }
-    
+
     var fontSize: CGFloat {
         get {
             return font.pointSize
@@ -18,7 +18,7 @@ public extension UILabel {
     func requiredHeight(_ width: CGFloat) -> CGFloat {
         let label: UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: width, height: CGFloat.greatestFiniteMagnitude))
         
-        label.numberOfLines = 1
+        label.numberOfLines = 0
         label.lineBreakMode = .byWordWrapping
         label.font = font
         

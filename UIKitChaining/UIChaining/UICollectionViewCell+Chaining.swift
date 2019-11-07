@@ -16,4 +16,9 @@ public extension UICollectionViewCellChaining {
         (self as! UICollectionViewCell).isSelected = isSelected
         return self
     }
+    @discardableResult
+    func selectedBackgroundView(_ selectedBackgroundView: UIView) -> Self {
+        (self as! UICollectionViewCell).selectedBackgroundView = selectedBackgroundView
+        return self
+    }
 }
