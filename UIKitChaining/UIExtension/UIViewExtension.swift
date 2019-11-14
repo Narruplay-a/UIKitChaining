@@ -534,7 +534,7 @@ public class LayoutProxy {
     }
     
     @discardableResult
-    func sideToSide(_ side: NSLayoutConstraint.Attribute, toView: UIView?, toSide: NSLayoutConstraint.Attribute, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal, multiplier: CGFloat = 1) -> NSLayoutConstraint? {
+    public func sideToSide(_ side: NSLayoutConstraint.Attribute, toView: UIView?, toSide: NSLayoutConstraint.Attribute, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal, multiplier: CGFloat = 1) -> NSLayoutConstraint? {
         guard let superview = view.superview else {
             ConstraintLogger.logSuperviewError(view)
             return nil }
@@ -548,7 +548,7 @@ public class LayoutProxy {
     }
     
     @discardableResult
-    func setDimension(_ dimension: AKDimension, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+    public func setDimension(_ dimension: AKDimension, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
         guard let _ = view.superview else {
             ConstraintLogger.logSuperviewError(view)
             return nil }
@@ -558,7 +558,7 @@ public class LayoutProxy {
     }
     
     @discardableResult
-    func alignDimension(_ dimension: AKDimension, toView: UIView?, toDimesion: AKDimension? = nil, multiplier: CGFloat, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+    public func alignDimension(_ dimension: AKDimension, toView: UIView?, toDimesion: AKDimension? = nil, multiplier: CGFloat, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
         guard let superview = view.superview else {
             ConstraintLogger.logSuperviewError(view)
             return nil }
@@ -571,7 +571,7 @@ public class LayoutProxy {
     }
     
     @discardableResult
-    func alignVertical(_ toView: UIView?, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+    public func alignVertical(_ toView: UIView?, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
         guard let toView = toView else {
             ConstraintLogger.logError(view, attribute: .centerX)
             return nil }
@@ -584,7 +584,7 @@ public class LayoutProxy {
     }
     
     @discardableResult
-    func alignVerticalToSuperview(_ offset: CGFloat) -> NSLayoutConstraint? {
+    public func alignVerticalToSuperview(_ offset: CGFloat) -> NSLayoutConstraint? {
         guard let superview = view.superview else {
             ConstraintLogger.logError(view, attribute: .centerX)
             return nil }
@@ -594,7 +594,7 @@ public class LayoutProxy {
     }
     
     @discardableResult
-    func alignHorizontal(_ toView: UIView?, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+    public func alignHorizontal(_ toView: UIView?, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
         guard let toView = toView else {
             ConstraintLogger.logError(view, attribute: .centerY)
             return nil }
@@ -607,7 +607,7 @@ public class LayoutProxy {
     }
     
     @discardableResult
-    func alignHorizontalToSuperview(_ offset: CGFloat) -> NSLayoutConstraint? {
+    public func alignHorizontalToSuperview(_ offset: CGFloat) -> NSLayoutConstraint? {
         guard let superview = view.superview else {
             ConstraintLogger.logError(view, attribute: .centerY)
             return nil }
@@ -618,7 +618,7 @@ public class LayoutProxy {
     
     @available(iOS 11.0, *)
     @discardableResult
-    func toTopSafeLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+    public func toTopSafeLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
         let const = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.top, relatedBy: relation, toItem: controller.view.safeAreaLayoutGuide.topAnchor, attribute: NSLayoutConstraint.Attribute.bottom, multiplier: 1, constant: offset)
         controller.view.addConstraint(const)
         return const
@@ -626,21 +626,21 @@ public class LayoutProxy {
     
     @available(iOS 11.0, *)
     @discardableResult
-    func toBottomSafeLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+    public func toBottomSafeLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
         let const = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.bottom, relatedBy: relation, toItem: controller.view.safeAreaLayoutGuide.bottomAnchor, attribute: NSLayoutConstraint.Attribute.bottom, multiplier: 1, constant: offset)
         controller.view.addConstraint(const)
         return const
     }
     
     @discardableResult
-    func toTopLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+    public func toTopLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
         let const = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.top, relatedBy: relation, toItem: controller.topLayoutGuide, attribute: NSLayoutConstraint.Attribute.bottom, multiplier: 1, constant: offset)
         controller.view.addConstraint(const)
         return const
     }
     
     @discardableResult
-    func toBottomLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
+    public func toBottomLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> NSLayoutConstraint? {
         let const = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.bottom, relatedBy: relation, toItem: controller.bottomLayoutGuide, attribute: NSLayoutConstraint.Attribute.bottom, multiplier: 1, constant: -offset)
         controller.view.addConstraint(const)
         return const
