@@ -443,7 +443,7 @@ public extension UIView {
 }
 
 public extension UIView {
-    private struct AssociatedKeys {
+    public struct AssociatedKeys {
         static var id: String = ""
         static var cornerRadius: CGFloat = 0
         static var borderColor: UIColor = .black
@@ -493,7 +493,7 @@ public extension UIView {
         }
     }
     
-    var layoutProxy: LayoutProxy {
+    public var layoutProxy: LayoutProxy {
         get {
             let proxy = objc_getAssociatedObject(self, &AssociatedKeys.layoutProxy) as? LayoutProxy
             return proxy == nil ? LayoutProxy(self) : proxy!
@@ -529,7 +529,7 @@ public enum AKDimension {
 public class LayoutProxy {
     var view: UIView!
     
-    init(_ view: UIView) {
+    public init(_ view: UIView) {
         self.view = view
     }
     
