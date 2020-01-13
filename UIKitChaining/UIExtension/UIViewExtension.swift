@@ -443,7 +443,7 @@ public extension UIView {
 }
 
 public extension UIView {
-    public struct AssociatedKeys {
+    private struct AssociatedKeys {
         static var id: String = ""
         static var cornerRadius: CGFloat = 0
         static var borderColor: UIColor = .black
