@@ -18,15 +18,11 @@ internal class UISwitchChangeAction {
 
 public extension UISwitch {
     struct AssociatedKeys {
-        static var onValueChange: UISwitchChangeAction = UISwitchChangeAction({_ in })
+        static var onValueChange = UISwitchChangeAction({_ in })
     }
     internal var onValueChange: UISwitchChangeAction {
-        get {
-            return objc_getAssociatedObject(self, &AssociatedKeys.onValueChange) as! UISwitchChangeAction
-        }
-        set {
-            objc_setAssociatedObject(self, &AssociatedKeys.onValueChange, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN)
-        }
+        get { return objc_getAssociatedObject(self, &AssociatedKeys.onValueChange) as! UISwitchChangeAction }
+        set { objc_setAssociatedObject(self, &AssociatedKeys.onValueChange, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN) }
     }
     @objc internal func valueChangeProceed() {
         onValueChange.action(isOn)

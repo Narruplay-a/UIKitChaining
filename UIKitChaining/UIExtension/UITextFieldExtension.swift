@@ -14,12 +14,10 @@ public extension UITextField {
     }
 
     var fontSize: CGFloat {
-        get {
-            return font?.pointSize ?? 12.0
-        }
+        get { return font?.pointSize ?? 12.0 }
         set {
-            if let font = font {
-                self.font = UIFont(descriptor: font.fontDescriptor, size: newValue)
+            if let currenFont = font {
+                font = UIFont(descriptor: currenFont.fontDescriptor, size: newValue)
             }
             font = UIFont.systemFont(ofSize: newValue)
             objc_setAssociatedObject(self, &AssociatedKeys.fontSize, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN)

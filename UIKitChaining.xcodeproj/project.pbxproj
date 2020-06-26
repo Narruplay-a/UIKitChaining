@@ -18,7 +18,8 @@
 		5960372A22C5FF57000F4A4F /* UICollectionViewCell+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887FE99E2244C39A001F5036 /* UICollectionViewCell+Chaining.swift */; };
 		5960372B22C5FF5A000F4A4F /* UICollectionViewFlowLayout+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887FE9A02244C3BA001F5036 /* UICollectionViewFlowLayout+Chaining.swift */; };
 		5960372C22C5FF5E000F4A4F /* UITableViewCell+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887FE99C2244C34A001F5036 /* UITableViewCell+Chaining.swift */; };
-		5975DE8A22F1597700B738B8 /* AKLayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5975DE8922F1597700B738B8 /* AKLayoutItem.swift */; };
+		596CCF6924A5D4E40058A84A /* SupportClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596CCF6824A5D4E40058A84A /* SupportClasses.swift */; };
+		596CCF6A24A5DA510058A84A /* SupportClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596CCF6824A5D4E40058A84A /* SupportClasses.swift */; };
 		597EA1E622F0761D0004D1F7 /* UIKitChaining copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 597EA1E522F0761D0004D1F7 /* UIKitChaining copy-Info.plist */; };
 		597EA1E822F077620004D1F7 /* UISegmentedControl+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EA1E722F077620004D1F7 /* UISegmentedControl+Chaining.swift */; };
 		59DFBD8322C9DF570088A02B /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBD8222C9DF570088A02B /* UITableViewExtension.swift */; };
@@ -80,7 +81,7 @@
 /* Begin PBXFileReference section */
 		5952533022BA322900EE573B /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		595EF9C222F30343001A0C35 /* UIControl+Chaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIControl+Chaining.swift"; path = "../../../../../../../System/Volumes/Data/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/UIKitChaining/UIChaining/UIControl+Chaining.swift"; sourceTree = "<group>"; };
-		5975DE8922F1597700B738B8 /* AKLayoutItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKLayoutItem.swift; sourceTree = "<group>"; };
+		596CCF6824A5D4E40058A84A /* SupportClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportClasses.swift; sourceTree = "<group>"; };
 		597EA1E522F0761D0004D1F7 /* UIKitChaining copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UIKitChaining copy-Info.plist"; sourceTree = "<group>"; };
 		597EA1E722F077620004D1F7 /* UISegmentedControl+Chaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Chaining.swift"; sourceTree = "<group>"; };
 		59DFBD8222C9DF570088A02B /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
@@ -139,14 +140,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5975DE8822F1592900B738B8 /* ViewLayout */ = {
-			isa = PBXGroup;
-			children = (
-				5975DE8922F1597700B738B8 /* AKLayoutItem.swift */,
-			);
-			path = ViewLayout;
-			sourceTree = "<group>";
-		};
 		8864D56221D0DC3B002E7029 /* UIKitChainingUniversal */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +173,6 @@
 			children = (
 				88654E0621AEBE8D0008A630 /* UIKitChaining.h */,
 				887FE99A2244C193001F5036 /* Support */,
-				5975DE8822F1592900B738B8 /* ViewLayout */,
 				887FE99B2244C263001F5036 /* UIExtension */,
 				88654E2C21AEC46D0008A630 /* UIChaining */,
 				88654E0721AEBE8D0008A630 /* Info.plist */,
@@ -224,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				887E101B2240CBFC005A430F /* ConstraintLogger.swift */,
+				596CCF6824A5D4E40058A84A /* SupportClasses.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -402,6 +395,7 @@
 				5960372522C5FF42000F4A4F /* UIBarButtonItem+Chaining.swift in Sources */,
 				8864D57C21D0DC5E002E7029 /* UIScrollViewExtension.swift in Sources */,
 				8864D57D21D0DC5E002E7029 /* UIImageView+Chaining.swift in Sources */,
+				596CCF6A24A5DA510058A84A /* SupportClasses.swift in Sources */,
 				8864D57E21D0DC5E002E7029 /* UILabelExtension.swift in Sources */,
 				8864D57F21D0DC5E002E7029 /* UISwitch+Chaining.swift in Sources */,
 				8864D58021D0DC5E002E7029 /* UIGestureRecognizerExtension.swift in Sources */,
@@ -447,7 +441,7 @@
 				887FE98F2244B919001F5036 /* UIActivityIndicatorView+Chaining.swift in Sources */,
 				88651BB521B6797100D54D45 /* UIWebView+Chaining.swift in Sources */,
 				88654E2421AEBFBA0008A630 /* UIGestureRecognizer+Chaining.swift in Sources */,
-				5975DE8A22F1597700B738B8 /* AKLayoutItem.swift in Sources */,
+				596CCF6924A5D4E40058A84A /* SupportClasses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

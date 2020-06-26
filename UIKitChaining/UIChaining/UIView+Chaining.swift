@@ -12,142 +12,162 @@ public extension UIViewChainingProtocol {
     }
     @discardableResult
     func optional(_ option: Bool, _ block: (Self) -> Void) -> Self {
-        if option {
-            block(self)
-        }
+        if option { block(self) }
+        
         return self
     }
     @discardableResult
     func updateDimension(_ dimension: AKDimension, value: CGFloat) -> Self {
         guard let selfView = self as? UIView, let _ = selfView.superview else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
         if dimension == .height {
             selfView.firstHeightConstraint()?.constant = value
         } else {
             selfView.firstWidthConstraint()?.constant = value
         }
+        
         return self
     }
     @discardableResult
-    func setSubviewsOnList(_ views: [UIView], _ margin: UIEdgeInsets = UIEdgeInsets.zero, _ offset: CGFloat = 0) -> Self {
+    func setSubviewsOnList(_ views: [UIView], margin: UIEdgeInsets = UIEdgeInsets.zero, offset: CGFloat = 0) -> Self {
         (self as! UIView).setList(of: views, on: (self as! UIView), with: margin, offset: offset)
         return self
     }
     @discardableResult
-    func horizontalToSuperview(_ offset: CGFloat) -> Self {
+    func horizontalToSuperview(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.alignHorizontalToSuperview(offset)
+        selfView.layoutProxy.alignHorizontalToSuperview(offset, relation: relation)
         return self
     }
     @discardableResult
-    func verticalToSuperview(_ offset: CGFloat) -> Self {
+    func verticalToSuperview(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.alignVerticalToSuperview(offset)
+        selfView.layoutProxy.alignVerticalToSuperview(offset, relation: relation)
         return self
     }
     @discardableResult
-    func verticalTo(_ view: UIView?, with offset: CGFloat) -> Self {
+    func verticalTo(_ view: UIView?, with offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.alignVertical(view, offset: offset)
+        selfView.layoutProxy.alignVertical(view, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func horizontalTo(_ view: UIView?, with offset: CGFloat) -> Self {
+    func horizontalTo(_ view: UIView?, with offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.alignHorizontal(view, offset: offset)
+        selfView.layoutProxy.alignHorizontal(view, offset: offset, relation: relation)
         return self
     }
     @discardableResult
     func apectRatio(_ widthToHeight: CGFloat) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.alignDimension(.width, toView: selfView, toDimesion: .height, multiplier: widthToHeight, offset: 0, relation: .equal)
+        selfView.layoutProxy.alignDimension(.width,
+                                            toView: selfView,
+                                            toDimesion: .height,
+                                            multiplier: widthToHeight,
+                                            offset: 0,
+                                            relation: .equal)
         return self
     }
     @discardableResult
-    func widthTo(_ view: UIView?, multiplier: CGFloat) -> Self {
+    func widthTo(_ view: UIView?, multiplier: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.alignDimension(.width, toView: view, multiplier: multiplier, offset: 0)
+        selfView.layoutProxy.alignDimension(.width, toView: view, multiplier: multiplier, offset: 0, relation: relation)
         return self
     }
     @discardableResult
-    func heightTo(_ view: UIView?, multiplier: CGFloat) -> Self {
+    func heightTo(_ view: UIView?, multiplier: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.alignDimension(.height, toView: view, multiplier: multiplier, offset: 0)
+        selfView.layoutProxy.alignDimension(.height, toView: view, multiplier: multiplier, offset: 0, relation: relation)
         return self
     }
     @discardableResult
     func centerInSuperview() -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
         selfView.horizontalToSuperview(0)
-            .verticalToSuperview(0)
+        selfView.verticalToSuperview(0)
         return self
     }
     @discardableResult
-    func centerToView(_ view: UIView?, offset: CGPoint) -> Self {
+    func centerToView(_ view: UIView?, offset: CGPoint, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.horizontalTo(view, with: offset.y)
-            .verticalTo(view, with: offset.x)
+        selfView.horizontalTo(view, with: offset.y, relation: relation)
+        selfView.verticalTo(view, with: offset.x, relation: relation)
         return self
     }
     @discardableResult
-    func size(_ size: CGSize) -> Self {
+    func size(_ size: CGSize, relation: NSLayoutConstraint.Relation = .equal, multiplier: CGFloat = 0) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.setDimension(.height, offset: size.height)
-        selfView.layoutProxy.setDimension(.width, offset: size.width)
+        selfView.layoutProxy.setDimension(.height, offset: size.height, relation: relation, multiplier: multiplier)
+        selfView.layoutProxy.setDimension(.width, offset: size.width, relation: relation, multiplier: multiplier)
         return self
     }
     @discardableResult
-    func width(_ value: CGFloat) -> Self {
+    func width(_ value: CGFloat, relation: NSLayoutConstraint.Relation = .equal, multiplier: CGFloat = 0) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.setDimension(.width, offset: value)
+        selfView.layoutProxy.setDimension(.width, offset: value, relation: relation, multiplier: multiplier)
         return self
     }
     @discardableResult
-    func height(_ value: CGFloat) -> Self {
+    func height(_ value: CGFloat, relation: NSLayoutConstraint.Relation = .equal, multiplier: CGFloat = 0) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.setDimension(.height, offset: value)
+        selfView.layoutProxy.setDimension(.height, offset: value, relation: relation, multiplier: multiplier)
         return self
     }
     @discardableResult
-    func all(_ edge: UIEdgeInsets, _ except: [NSLayoutConstraint.Attribute] = []) -> Self {
+    func all(_ edge: UIEdgeInsets, _ except: [NSLayoutConstraint.Attribute] = [], relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
         
         if except.count == 0 {
-            selfView.layoutProxy.sideToSide(.top, toView: selfView.superview, toSide: .top, offset: edge.top)
-            selfView.layoutProxy.sideToSide(.bottom, toView: selfView.superview, toSide: .bottom, offset: edge.bottom)
-            selfView.layoutProxy.sideToSide(.left, toView: selfView.superview, toSide: .left, offset: edge.left)
-            selfView.layoutProxy.sideToSide(.right, toView: selfView.superview, toSide: .right, offset: edge.right)
+            selfView.layoutProxy.sideToSide(.top, toView: selfView.superview, toSide: .top, offset: edge.top, relation: relation)
+            selfView.layoutProxy.sideToSide(.bottom, toView: selfView.superview, toSide: .bottom, offset: edge.bottom, relation: relation)
+            selfView.layoutProxy.sideToSide(.left, toView: selfView.superview, toSide: .left, offset: edge.left, relation: relation)
+            selfView.layoutProxy.sideToSide(.right, toView: selfView.superview, toSide: .right, offset: edge.right, relation: relation)
         } else {
             if !except.contains(.top) {
-                selfView.layoutProxy.sideToSide(.top, toView: selfView.superview, toSide: .top, offset: edge.top)
+                selfView.layoutProxy.sideToSide(.top, toView: selfView.superview, toSide: .top, offset: edge.top, relation: relation)
             }
             if !except.contains(.bottom) {
-                selfView.layoutProxy.sideToSide(.bottom, toView: selfView.superview, toSide: .bottom, offset: edge.bottom)
+                selfView.layoutProxy.sideToSide(.bottom,
+                                                toView: selfView.superview, toSide: .bottom, offset: edge.bottom, relation: relation)
             }
             if !except.contains(.left) {
-                selfView.layoutProxy.sideToSide(.left, toView: selfView.superview, toSide: .left, offset: edge.left)
+                selfView.layoutProxy.sideToSide(.left, toView: selfView.superview, toSide: .left, offset: edge.left, relation: relation)
             }
             if !except.contains(.right) {
-                selfView.layoutProxy.sideToSide(.right, toView: selfView.superview, toSide: .right, offset: edge.right)
+                selfView.layoutProxy.sideToSide(.right, toView: selfView.superview, toSide: .right, offset: edge.right, relation: relation)
             }
         }
         return self
     }
     @discardableResult
-    func topToLast(_ offset: CGFloat) -> Self {
+    func topToLast(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
         selfView.translatesAutoresizingMaskIntoConstraints = false
         guard let previousView = selfView.superview?.beforeLastSubview else {
@@ -158,153 +178,175 @@ public extension UIViewChainingProtocol {
         return self
     }
     @discardableResult
-    func topToSuperview(_ offset: CGFloat) -> Self {
+    func topToSuperview(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.top, toView: selfView.superview, toSide: .top, offset: offset)
+        selfView.layoutProxy.sideToSide(.top, toView: selfView.superview, toSide: .top, offset: offset, relation: relation)
         return self
     }
     @available(iOS 11.0, *)
     @discardableResult
-    func topSafeLayout(_ controller: UIViewController, offset: CGFloat) -> Self {
-        (self as! UIView).layoutProxy.toTopSafeLayout(controller, offset: offset)
+    func topSafeLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
+        (self as! UIView).layoutProxy.toTopSafeLayout(controller, offset: offset, relation: relation)
         return self
     }
     @available(iOS 11.0, *)
     @discardableResult
-    func bottomSafeLayout(_ controller: UIViewController, offset: CGFloat) -> Self {
-        (self as! UIView).layoutProxy.toBottomSafeLayout(controller, offset: offset)
+    func bottomSafeLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
+        (self as! UIView).layoutProxy.toBottomSafeLayout(controller, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func topLayout(_ controller: UIViewController, offset: CGFloat) -> Self {
-        (self as! UIView).layoutProxy.toTopLayout(controller, offset: offset)
+    func topLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
+        (self as! UIView).layoutProxy.toTopLayout(controller, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func bottomLayout(_ controller: UIViewController, offset: CGFloat) -> Self {
-        (self as! UIView).layoutProxy.toBottomLayout(controller, offset: offset)
+    func bottomLayout(_ controller: UIViewController, offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
+        (self as! UIView).layoutProxy.toBottomLayout(controller, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func topToBottom(of view: UIView?, _ offset: CGFloat) -> Self {
+    func topToBottom(of view: UIView?, _ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.top, toView: view, toSide: .bottom, offset: offset)
+        selfView.layoutProxy.sideToSide(.top, toView: view, toSide: .bottom, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func topToTop(of view: UIView?, _ offset: CGFloat) -> Self {
+    func topToTop(of view: UIView?, _ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.top, toView: view, toSide: .top, offset: offset)
+        selfView.layoutProxy.sideToSide(.top, toView: view, toSide: .top, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func bottomToSuperview(_ offset: CGFloat) -> Self {
+    func bottomToSuperview(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.bottom, toView: selfView.superview, toSide: .bottom, offset: offset)
+        selfView.layoutProxy.sideToSide(.bottom, toView: selfView.superview, toSide: .bottom, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func bottomToTop(of view: UIView?, _ offset: CGFloat) -> Self {
+    func bottomToTop(of view: UIView?, _ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.bottom, toView: view, toSide: .top, offset: offset)
+        selfView.layoutProxy.sideToSide(.bottom, toView: view, toSide: .top, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func bottomToBottom(of view: UIView?, _ offset: CGFloat) -> Self {
+    func bottomToBottom(of view: UIView?, _ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.bottom, toView: view, toSide: .bottom, offset: offset)
+        selfView.layoutProxy.sideToSide(.bottom, toView: view, toSide: .bottom, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func leftToSuperview(_ offset: CGFloat) -> Self {
+    func leftToSuperview(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.left, toView: selfView.superview, toSide: .left, offset: offset)
+        selfView.layoutProxy.sideToSide(.left, toView: selfView.superview, toSide: .left, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func leftToRight(of view: UIView?, _ offset: CGFloat) -> Self {
+    func leftToRight(of view: UIView?, _ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.left, toView: view, toSide: .right, offset: offset)
+        selfView.layoutProxy.sideToSide(.left, toView: view, toSide: .right, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func leftToLeft(of view: UIView?, _ offset: CGFloat) -> Self {
+    func leftToLeft(of view: UIView?, _ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.left, toView: view, toSide: .left, offset: offset)
+        selfView.layoutProxy.sideToSide(.left, toView: view, toSide: .left, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func rightToSuperview(_ offset: CGFloat) -> Self {
+    func rightToSuperview(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.right, toView: selfView.superview, toSide: .right, offset: offset)
+        selfView.layoutProxy.sideToSide(.right, toView: selfView.superview, toSide: .right, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func rightToRight(of view: UIView?, _ offset: CGFloat) -> Self {
+    func rightToRight(of view: UIView?, _ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.right, toView: view, toSide: .right, offset: offset)
+        selfView.layoutProxy.sideToSide(.right, toView: view, toSide: .right, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func rightToLeft(of view: UIView?, _ offset: CGFloat) -> Self {
+    func rightToLeft(of view: UIView?, _ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.right, toView: view, toSide: .left, offset: offset)
+        selfView.layoutProxy.sideToSide(.right, toView: view, toSide: .left, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func rightToLastLeft(_ offset: CGFloat) -> Self {
+    func rightToLastLeft(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.right, toView: selfView.superview?.beforeLastSubview, toSide: .left, offset: offset)
+        selfView.layoutProxy.sideToSide(.right,
+                                        toView: selfView.superview?.beforeLastSubview, toSide: .left, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func rightToLastRight(_ offset: CGFloat) -> Self {
+    func rightToLastRight(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.right, toView: selfView.superview?.beforeLastSubview, toSide: .right, offset: offset)
+        selfView.layoutProxy.sideToSide(.right,
+                                        toView: selfView.superview?.beforeLastSubview, toSide: .right, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func leftToLastRight(_ offset: CGFloat) -> Self {
+    func leftToLastRight(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.left, toView: selfView.superview?.beforeLastSubview, toSide: .right, offset: offset)
+        selfView.layoutProxy.sideToSide(.left,
+                                        toView: selfView.superview?.beforeLastSubview, toSide: .right, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func leftToLastLeft(_ offset: CGFloat) -> Self {
+    func leftToLastLeft(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.left, toView: selfView.superview?.beforeLastSubview, toSide: .left, offset: offset)
+        selfView.layoutProxy.sideToSide(.left,
+                                        toView: selfView.superview?.beforeLastSubview, toSide: .left, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func sidesToSuperview(_ offset: CGFloat) -> Self {
+    func sidesToSuperview(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.left, toView: selfView.superview, toSide: .left, offset: offset)
-        selfView.layoutProxy.sideToSide(.right, toView: selfView.superview, toSide: .right, offset: offset)
+        selfView.layoutProxy.sideToSide(.left, toView: selfView.superview, toSide: .left, offset: offset, relation: relation)
+        selfView.layoutProxy.sideToSide(.right, toView: selfView.superview, toSide: .right, offset: offset, relation: relation)
         return self
     }
     @discardableResult
-    func topBottomToSuperview(_ offset: CGFloat) -> Self {
+    func topBottomToSuperview(_ offset: CGFloat, relation: NSLayoutConstraint.Relation = .equal) -> Self {
         guard let selfView = self as? UIView else { return self }
+        
         selfView.translatesAutoresizingMaskIntoConstraints = false
-        selfView.layoutProxy.sideToSide(.left, toView: selfView.superview, toSide: .left, offset: offset)
-        selfView.layoutProxy.sideToSide(.right, toView: selfView.superview, toSide: .right, offset: offset)
+        selfView.layoutProxy.sideToSide(.left, toView: selfView.superview, toSide: .left, offset: offset, relation: relation)
+        selfView.layoutProxy.sideToSide(.right, toView: selfView.superview, toSide: .right, offset: offset, relation: relation)
         return self
     }
     @discardableResult
@@ -385,12 +427,14 @@ public extension UIViewChainingProtocol {
     @discardableResult
     func sendToBack() -> Self {
         guard let superview = (self as! UIView).superview else { return self }
+        
         superview.sendSubviewToBack((self as! UIView))
         return self
     }
     @discardableResult
     func bringToFront() -> Self {
         guard let superview = (self as! UIView).superview else { return self }
+        
         superview.bringSubviewToFront((self as! UIView))
         return self
     }
@@ -417,8 +461,5 @@ public extension UIViewChainingProtocol {
             .height(height)
             .backgroundColor(color)
         return self
-    }
-    func designSubviews(_ callback: (Self) -> Void) {
-        callback(self)
     }
 }

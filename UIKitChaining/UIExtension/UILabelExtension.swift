@@ -6,9 +6,7 @@ public extension UILabel {
     }
 
     var fontSize: CGFloat {
-        get {
-            return font.pointSize
-        }
+        get { return font.pointSize }
         set {
             font = UIFont(descriptor: font.fontDescriptor, size: newValue)
             objc_setAssociatedObject(self, &AssociatedKeys.fontSize, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN)

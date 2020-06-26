@@ -13,6 +13,6 @@ public extension UIGestureRecognizer {
         }
     }
     @objc internal func proceedAction() {
-        touchAction.touchAction()
+        touchAction.proceedAction()
     }
 }
