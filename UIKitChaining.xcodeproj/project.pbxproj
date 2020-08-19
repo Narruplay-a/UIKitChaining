@@ -51,13 +51,11 @@
 		8864D57E21D0DC5E002E7029 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88654E0E21AEBFAD0008A630 /* UILabelExtension.swift */; };
 		8864D57F21D0DC5E002E7029 /* UISwitch+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88654E1921AEBFB90008A630 /* UISwitch+Chaining.swift */; };
 		8864D58021D0DC5E002E7029 /* UIGestureRecognizerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88654E0F21AEBFAD0008A630 /* UIGestureRecognizerExtension.swift */; };
-		8864D58121D0DC5E002E7029 /* UIWebView+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88651BB421B6797100D54D45 /* UIWebView+Chaining.swift */; };
 		8864D58221D0DC5E002E7029 /* UIGestureRecognizer+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88654E1821AEBFB90008A630 /* UIGestureRecognizer+Chaining.swift */; };
 		88651BAD21B673DC00D54D45 /* UINavigationController+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88651BAC21B673DC00D54D45 /* UINavigationController+Chaining.swift */; };
 		88651BAF21B6750100D54D45 /* UINavigationBar+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88651BAE21B6750100D54D45 /* UINavigationBar+Chaining.swift */; };
 		88651BB121B6763000D54D45 /* UINavigationItem+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88651BB021B6763000D54D45 /* UINavigationItem+Chaining.swift */; };
 		88651BB321B6776600D54D45 /* UIViewController+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88651BB221B6776600D54D45 /* UIViewController+Chaining.swift */; };
-		88651BB521B6797100D54D45 /* UIWebView+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88651BB421B6797100D54D45 /* UIWebView+Chaining.swift */; };
 		88654E0821AEBE8D0008A630 /* UIKitChaining.h in Headers */ = {isa = PBXBuildFile; fileRef = 88654E0621AEBE8D0008A630 /* UIKitChaining.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88654E1121AEBFAD0008A630 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88654E0E21AEBFAD0008A630 /* UILabelExtension.swift */; };
 		88654E1221AEBFAD0008A630 /* UIGestureRecognizerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88654E0F21AEBFAD0008A630 /* UIGestureRecognizerExtension.swift */; };
@@ -106,7 +104,6 @@
 		88651BAE21B6750100D54D45 /* UINavigationBar+Chaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Chaining.swift"; sourceTree = "<group>"; };
 		88651BB021B6763000D54D45 /* UINavigationItem+Chaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Chaining.swift"; sourceTree = "<group>"; };
 		88651BB221B6776600D54D45 /* UIViewController+Chaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Chaining.swift"; sourceTree = "<group>"; };
-		88651BB421B6797100D54D45 /* UIWebView+Chaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWebView+Chaining.swift"; sourceTree = "<group>"; };
 		88654E0321AEBE8D0008A630 /* UIKitChaining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitChaining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88654E0621AEBE8D0008A630 /* UIKitChaining.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitChaining.h; sourceTree = "<group>"; };
 		88654E0721AEBE8D0008A630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -229,7 +226,6 @@
 				887FE9902244BC86001F5036 /* UIAlertView+Chaining.swift */,
 				887FE9922244BDD2001F5036 /* UITabBar+Chaining.swift */,
 				887FE9942244BF6C001F5036 /* UIButton+Chaining.swift */,
-				88651BB421B6797100D54D45 /* UIWebView+Chaining.swift */,
 				597EA1E722F077620004D1F7 /* UISegmentedControl+Chaining.swift */,
 			);
 			path = UIChaining;
@@ -432,7 +428,6 @@
 				5960372D22C5FF68000F4A4F /* DateExtension.swift in Sources */,
 				8864D57F21D0DC5E002E7029 /* UISwitch+Chaining.swift in Sources */,
 				8864D58021D0DC5E002E7029 /* UIGestureRecognizerExtension.swift in Sources */,
-				8864D58121D0DC5E002E7029 /* UIWebView+Chaining.swift in Sources */,
 				8864D58221D0DC5E002E7029 /* UIGestureRecognizer+Chaining.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,7 +471,6 @@
 				887FE9972244C131001F5036 /* UIImageExtension.swift in Sources */,
 				88654E1221AEBFAD0008A630 /* UIGestureRecognizerExtension.swift in Sources */,
 				887FE98F2244B919001F5036 /* UIActivityIndicatorView+Chaining.swift in Sources */,
-				88651BB521B6797100D54D45 /* UIWebView+Chaining.swift in Sources */,
 				5952533722BA4DCE00EE573B /* DateExtension.swift in Sources */,
 				88654E2421AEBFBA0008A630 /* UIGestureRecognizer+Chaining.swift in Sources */,
 				5975DE8A22F1597700B738B8 /* AKLayoutItem.swift in Sources */,
