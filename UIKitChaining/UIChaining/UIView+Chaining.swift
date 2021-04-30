@@ -5,6 +5,9 @@ public protocol UIViewChainingProtocol { }
 public extension UIViewChainingProtocol {
     @discardableResult
     func setAction(_ action: @escaping () -> Void) -> Self {
+        for gesture in (self as! UIView).gestureRecognizers ?? [] {
+            (self as! UIView).removeGestureRecognizer(gesture)
+        }
         (self as! UIView).isUserInteractionEnabled = true
         (self as! UIView).touchAction = TouchAction(action)
         (self as! UIView).addGestureRecognizer(UITapGestureRecognizer(target: (self as! UIView), action: #selector((self as! UIView).touch)))

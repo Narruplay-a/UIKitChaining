@@ -46,17 +46,63 @@ provides-member:
 - ["So11UITableViewC", "showEmptyView"]
 - ["So11UITableViewC", "hideEmptyView"]
 provides-dynamic-lookup:
+- "accessoryButtonTapped"
+- "callbackCollection"
+- "canFocus"
+- "canPerformAction"
+- "cellForRow"
+- "cellHeight"
+- "delegateProxy"
+- "didDeselectRow"
+- "didEndDisplayCell"
+- "didEndDisplayFooter"
+- "didEndDisplayHeader"
+- "didEndEditing"
+- "didHighlight"
+- "didSelectRow"
+- "didUnhighlight"
+- "editActions"
+- "editingStyle"
+- "emptyView"
+- "enableCallbacks"
+- "estimatedCellHeight"
+- "estimatedHeightForFooterInSection"
+- "estimatedHeightForHeaderInSection"
+- "footerForSection"
+- "headerForSection"
+- "heightForFooterInSection"
+- "heightForHeaderInSection"
+- "hideEmptyView"
+- "indentationLevel"
 - "indexPathForPreferredFocusedView"
+- "numberOfRows"
+- "numberOfSections"
+- "performAction"
+- "shouldHighlight"
+- "shouldIndentWhileEditing"
+- "shouldShowMenu"
+- "showEmptyView"
 - "tableView"
+- "targetIndexPathForMove"
+- "titleForDeleteConfirmationButton"
+- "willBeginEditing"
+- "willDeselectRow"
+- "willDisplayCell"
+- "willDisplayFooter"
+- "willDisplayHeader"
+- "willSelectRow"
 depends-top-level:
 - !private "=="
 - !private "??"
 - "AssignmentPrecedence"
 - "Bool"
+- !private "BooleanLiteralType"
 - "CGFloat"
 - "CastingPrecedence"
+- !private "FloatLiteralType"
 - "IndexPath"
 - "Int"
+- !private "IntegerLiteralType"
 - "NSObject"
 - "Selector"
 - "String"
@@ -169,7 +215,6 @@ depends-member:
 - ["s7CVarArgP", "indexPathForPreferredFocusedView"]
 - ["s7CVarArgP", "indexPathForPreferredFocusedViewInTableView"]
 - ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "numberOfRows"]
 - !private ["s7CVarArgP", "numberOfSections"]
 - !private ["s7CVarArgP", "objc_AssociationPolicy"]
@@ -195,6 +240,7 @@ depends-member:
 - !private ["s7CVarArgP", "shouldIndentWhileEditing"]
 - !private ["s7CVarArgP", "shouldShowMenu"]
 - ["s7CVarArgP", "tableView"]
+- ["s7CVarArgP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["s7CVarArgP", "targetIndexPathForMove"]
 - !private ["s7CVarArgP", "titleForDeleteConfirmationButton"]
 - ["s7CVarArgP", "viewForZooming"]
@@ -247,7 +293,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "indexPathForPreferredFocusedView"]
 - ["s28CustomDebugStringConvertibleP", "indexPathForPreferredFocusedViewInTableView"]
 - ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "numberOfRows"]
 - !private ["s28CustomDebugStringConvertibleP", "numberOfSections"]
 - !private ["s28CustomDebugStringConvertibleP", "objc_AssociationPolicy"]
@@ -273,6 +318,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "shouldIndentWhileEditing"]
 - !private ["s28CustomDebugStringConvertibleP", "shouldShowMenu"]
 - ["s28CustomDebugStringConvertibleP", "tableView"]
+- ["s28CustomDebugStringConvertibleP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["s28CustomDebugStringConvertibleP", "targetIndexPathForMove"]
 - !private ["s28CustomDebugStringConvertibleP", "titleForDeleteConfirmationButton"]
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
@@ -324,7 +370,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedView"]
 - ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedViewInTableView"]
 - ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "numberOfRows"]
 - !private ["s23CustomStringConvertibleP", "numberOfSections"]
 - !private ["s23CustomStringConvertibleP", "objc_AssociationPolicy"]
@@ -350,6 +395,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "shouldIndentWhileEditing"]
 - !private ["s23CustomStringConvertibleP", "shouldShowMenu"]
 - ["s23CustomStringConvertibleP", "tableView"]
+- ["s23CustomStringConvertibleP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["s23CustomStringConvertibleP", "targetIndexPathForMove"]
 - !private ["s23CustomStringConvertibleP", "titleForDeleteConfirmationButton"]
 - ["s23CustomStringConvertibleP", "viewForZooming"]
@@ -406,7 +452,6 @@ depends-member:
 - ["SQ", "indexPathForPreferredFocusedView"]
 - ["SQ", "indexPathForPreferredFocusedViewInTableView"]
 - ["SQ", "init"]
-- !private ["SQ", "init"]
 - !private ["SQ", "none"]
 - !private ["SQ", "numberOfRows"]
 - !private ["SQ", "numberOfSections"]
@@ -433,6 +478,7 @@ depends-member:
 - !private ["SQ", "shouldIndentWhileEditing"]
 - !private ["SQ", "shouldShowMenu"]
 - ["SQ", "tableView"]
+- ["SQ", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["SQ", "targetIndexPathForMove"]
 - !private ["SQ", "titleForDeleteConfirmationButton"]
 - ["SQ", "viewForZooming"]
@@ -486,7 +532,6 @@ depends-member:
 - ["SH", "indexPathForPreferredFocusedView"]
 - ["SH", "indexPathForPreferredFocusedViewInTableView"]
 - ["SH", "init"]
-- !private ["SH", "init"]
 - !private ["SH", "none"]
 - !private ["SH", "numberOfRows"]
 - !private ["SH", "numberOfSections"]
@@ -513,6 +558,7 @@ depends-member:
 - !private ["SH", "shouldIndentWhileEditing"]
 - !private ["SH", "shouldShowMenu"]
 - ["SH", "tableView"]
+- ["SH", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["SH", "targetIndexPathForMove"]
 - !private ["SH", "titleForDeleteConfirmationButton"]
 - ["SH", "viewForZooming"]
@@ -630,7 +676,6 @@ depends-member:
 - ["So8NSObjectC", "indexPathForPreferredFocusedView"]
 - ["So8NSObjectC", "indexPathForPreferredFocusedViewInTableView"]
 - ["So8NSObjectC", "init"]
-- !private ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "numberOfRows"]
 - ["So8NSObjectC", "numberOfSections"]
 - !private ["So8NSObjectC", "objc_AssociationPolicy"]
@@ -657,6 +702,7 @@ depends-member:
 - ["So8NSObjectC", "shouldShowMenu"]
 - ["So8NSObjectC", "showEmptyView"]
 - ["So8NSObjectC", "tableView"]
+- ["So8NSObjectC", "tableViewDidEndMultipleSelectionInteraction"]
 - ["So8NSObjectC", "targetIndexPathForMove"]
 - ["So8NSObjectC", "titleForDeleteConfirmationButton"]
 - ["So8NSObjectC", "viewForZooming"]
@@ -707,7 +753,6 @@ depends-member:
 - ["So8NSObjectP", "indexPathForPreferredFocusedView"]
 - ["So8NSObjectP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "isEqual"]
 - !private ["So8NSObjectP", "numberOfRows"]
 - !private ["So8NSObjectP", "numberOfSections"]
@@ -734,6 +779,7 @@ depends-member:
 - !private ["So8NSObjectP", "shouldIndentWhileEditing"]
 - !private ["So8NSObjectP", "shouldShowMenu"]
 - ["So8NSObjectP", "tableView"]
+- ["So8NSObjectP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["So8NSObjectP", "targetIndexPathForMove"]
 - !private ["So8NSObjectP", "titleForDeleteConfirmationButton"]
 - ["So8NSObjectP", "viewForZooming"]
@@ -1294,6 +1340,61 @@ depends-member:
 - !private ["So30UIFocusItemScrollableContainerP", "willSelectRow"]
 - ["So27UIGestureRecognizerDelegateP", "EditingStyle"]
 - !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So24UILargeContentViewerItemP", "AssociatedKeys"]
+- ["So24UILargeContentViewerItemP", "EditingStyle"]
+- ["So24UILargeContentViewerItemP", "UITableViewDelegateProxy"]
+- ["So24UILargeContentViewerItemP", "UITableViewExtensionCallbackCollection"]
+- ["So24UILargeContentViewerItemP", "UIView"]
+- !private ["So24UILargeContentViewerItemP", "accessoryButtonTapped"]
+- !private ["So24UILargeContentViewerItemP", "all"]
+- !private ["So24UILargeContentViewerItemP", "bringSubviewToFront"]
+- !private ["So24UILargeContentViewerItemP", "callbackCollection"]
+- !private ["So24UILargeContentViewerItemP", "canFocus"]
+- !private ["So24UILargeContentViewerItemP", "canPerformAction"]
+- !private ["So24UILargeContentViewerItemP", "cellForRow"]
+- !private ["So24UILargeContentViewerItemP", "cellHeight"]
+- !private ["So24UILargeContentViewerItemP", "delegate"]
+- !private ["So24UILargeContentViewerItemP", "delegateProxy"]
+- !private ["So24UILargeContentViewerItemP", "didDeselectRow"]
+- !private ["So24UILargeContentViewerItemP", "didEndDisplayCell"]
+- !private ["So24UILargeContentViewerItemP", "didEndDisplayFooter"]
+- !private ["So24UILargeContentViewerItemP", "didEndDisplayHeader"]
+- !private ["So24UILargeContentViewerItemP", "didEndEditing"]
+- !private ["So24UILargeContentViewerItemP", "didHighlight"]
+- !private ["So24UILargeContentViewerItemP", "didSelectRow"]
+- !private ["So24UILargeContentViewerItemP", "didUnhighlight"]
+- !private ["So24UILargeContentViewerItemP", "editActions"]
+- !private ["So24UILargeContentViewerItemP", "editingStyle"]
+- !private ["So24UILargeContentViewerItemP", "emptyView"]
+- !private ["So24UILargeContentViewerItemP", "estimatedCellHeight"]
+- !private ["So24UILargeContentViewerItemP", "estimatedHeightForFooterInSection"]
+- !private ["So24UILargeContentViewerItemP", "estimatedHeightForHeaderInSection"]
+- !private ["So24UILargeContentViewerItemP", "footerForSection"]
+- !private ["So24UILargeContentViewerItemP", "headerForSection"]
+- !private ["So24UILargeContentViewerItemP", "heightForFooterInSection"]
+- !private ["So24UILargeContentViewerItemP", "heightForHeaderInSection"]
+- !private ["So24UILargeContentViewerItemP", "indentationLevel"]
+- !private ["So24UILargeContentViewerItemP", "indexPathForPreferredFocusedView"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "numberOfRows"]
+- !private ["So24UILargeContentViewerItemP", "numberOfSections"]
+- !private ["So24UILargeContentViewerItemP", "objc_AssociationPolicy"]
+- !private ["So24UILargeContentViewerItemP", "objc_getAssociatedObject"]
+- !private ["So24UILargeContentViewerItemP", "objc_setAssociatedObject"]
+- !private ["So24UILargeContentViewerItemP", "performAction"]
+- !private ["So24UILargeContentViewerItemP", "removeFromSuperview"]
+- !private ["So24UILargeContentViewerItemP", "setSubview"]
+- !private ["So24UILargeContentViewerItemP", "shouldHighlight"]
+- !private ["So24UILargeContentViewerItemP", "shouldIndentWhileEditing"]
+- !private ["So24UILargeContentViewerItemP", "shouldShowMenu"]
+- !private ["So24UILargeContentViewerItemP", "targetIndexPathForMove"]
+- !private ["So24UILargeContentViewerItemP", "titleForDeleteConfirmationButton"]
+- !private ["So24UILargeContentViewerItemP", "willBeginEditing"]
+- !private ["So24UILargeContentViewerItemP", "willDeselectRow"]
+- !private ["So24UILargeContentViewerItemP", "willDisplayCell"]
+- !private ["So24UILargeContentViewerItemP", "willDisplayFooter"]
+- !private ["So24UILargeContentViewerItemP", "willDisplayHeader"]
+- !private ["So24UILargeContentViewerItemP", "willSelectRow"]
 - !private ["So30UIPasteConfigurationSupportingP", "AssociatedKeys"]
 - ["So30UIPasteConfigurationSupportingP", "EditingStyle"]
 - ["So30UIPasteConfigurationSupportingP", "UITableViewDelegateProxy"]
@@ -1608,6 +1709,7 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "scrollViewWillBeginZooming"]
 - ["So20UIScrollViewDelegateP", "scrollViewWillEndDragging"]
 - ["So20UIScrollViewDelegateP", "tableView"]
+- ["So20UIScrollViewDelegateP", "tableViewDidEndMultipleSelectionInteraction"]
 - ["So20UIScrollViewDelegateP", "viewForZooming"]
 - ["So20UIScrollViewDelegateP", "viewForZoomingInScrollView"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "AssociatedKeys"]
@@ -1802,6 +1904,7 @@ depends-member:
 - ["So19UITableViewDelegateP", "scrollViewWillBeginZooming"]
 - ["So19UITableViewDelegateP", "scrollViewWillEndDragging"]
 - ["So19UITableViewDelegateP", "tableView"]
+- ["So19UITableViewDelegateP", "tableViewDidEndMultipleSelectionInteraction"]
 - ["So19UITableViewDelegateP", "viewForZooming"]
 - ["So19UITableViewDelegateP", "viewForZoomingInScrollView"]
 - !private ["So18UITraitEnvironmentP", "AssociatedKeys"]
@@ -2078,7 +2181,6 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForPreferredFocusedView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForPreferredFocusedViewInTableView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfRows"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSections"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_AssociationPolicy"]
@@ -2104,6 +2206,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldIndentWhileEditing"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldShowMenu"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "targetIndexPathForMove"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "titleForDeleteConfirmationButton"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
@@ -2114,6 +2217,82 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "willDisplayFooter"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "willDisplayHeader"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "willSelectRow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AssociatedKeys"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "EditingStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "IndexPath"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UITableViewCell"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UITableViewDelegateProxy"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UITableViewExtensionCallbackCollection"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "accessoryButtonTapped"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "all"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bringSubviewToFront"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "callbackCollection"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "canFocus"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "canPerformAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cellForRow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cellHeight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegateProxy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didDeselectRow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didEndDisplayCell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didEndDisplayFooter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didEndDisplayHeader"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didEndEditing"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didHighlight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didSelectRow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didUnhighlight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "editActions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "editingStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "emptyView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "estimatedCellHeight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "estimatedHeightForFooterInSection"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "estimatedHeightForHeaderInSection"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "footerForSection"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "headerForSection"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "heightForFooterInSection"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "heightForHeaderInSection"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "indentationLevel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "indexPathForPreferredFocusedView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "indexPathForPreferredFocusedViewInTableView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfRows"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfSections"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "objc_AssociationPolicy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "objc_getAssociatedObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "objc_setAssociatedObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeFromSuperview"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidChangeAdjustedContentInset"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidEndDecelerating"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidEndDragging"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidEndScrollingAnimation"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidEndZooming"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidScroll"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidScrollToTop"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidZoom"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewShouldScrollToTop"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewWillBeginDecelerating"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewWillBeginDragging"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewWillBeginZooming"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewWillEndDragging"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shouldHighlight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shouldIndentWhileEditing"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shouldShowMenu"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tableView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "targetIndexPathForMove"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "titleForDeleteConfirmationButton"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZooming"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZoomingInScrollView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "willBeginEditing"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "willDeselectRow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "willDisplayCell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "willDisplayFooter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "willDisplayHeader"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "willSelectRow"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "zero"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "AssociatedKeys"]
@@ -2208,6 +2387,7 @@ depends-nominal:
 - "So20UIFocusItemContainerP"
 - "So30UIFocusItemScrollableContainerP"
 - "So27UIGestureRecognizerDelegateP"
+- "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
@@ -2225,35 +2405,38 @@ depends-nominal:
 - "So6UIViewC"
 - "13UIKitChaining06UIViewB8ProtocolP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"
 - "s38__DefaultCustomPlaygroundQuickLookableP"
 - !private "So22objc_AssociationPolicyV"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/UIKitChaining/UIKitChaining.h"
-- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/build/UIKitChaining.build/Debug-iphoneos/UIKitChaining.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/UIKitChaining/UIKitChaining/UIKitChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/UIKitChaining/build/UIKitChaining.build/Debug-iphoneos/UIKitChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "ea285071f2c4baa21c2673c750443980"

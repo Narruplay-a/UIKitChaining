@@ -1,0 +1,116 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UISegmentedControlChaining"
+provides-nominal:
+- "So18UISegmentedControlC"
+- "13UIKitChaining018UISegmentedControlB0P"
+provides-member:
+- ["So18UISegmentedControlC", ""]
+- ["13UIKitChaining018UISegmentedControlB0P", ""]
+- ["13UIKitChaining018UISegmentedControlB0P", "insertSegment"]
+- ["13UIKitChaining018UISegmentedControlB0P", "insertSegment"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "CastingPrecedence"
+- "Int"
+- "String"
+- "UIImage"
+- "UISegmentedControl"
+- "UISegmentedControlChaining"
+depends-member:
+- !private ["So15CALayerDelegateP", "insertSegment"]
+- !private ["s7CVarArgP", "insertSegment"]
+- !private ["s28CustomDebugStringConvertibleP", "insertSegment"]
+- !private ["s23CustomStringConvertibleP", "insertSegment"]
+- !private ["SQ", "insertSegment"]
+- !private ["SH", "insertSegment"]
+- !private ["So8NSCodingP", "insertSegment"]
+- !private ["So8NSObjectC", "insertSegment"]
+- !private ["So8NSObjectP", "insertSegment"]
+- !private ["So29UIAccessibilityIdentificationP", "insertSegment"]
+- !private ["So12UIAppearanceP", "insertSegment"]
+- !private ["So21UIAppearanceContainerP", "insertSegment"]
+- !private ["So9UIControlC", "insertSegment"]
+- !private ["So17UICoordinateSpaceP", "insertSegment"]
+- !private ["So13UIDynamicItemP", "insertSegment"]
+- !private ["So18UIFocusEnvironmentP", "insertSegment"]
+- !private ["So11UIFocusItemP", "insertSegment"]
+- !private ["So20UIFocusItemContainerP", "insertSegment"]
+- !private ["So24UILargeContentViewerItemP", "insertSegment"]
+- !private ["So30UIPasteConfigurationSupportingP", "insertSegment"]
+- !private ["So11UIResponderC", "insertSegment"]
+- !private ["So30UIResponderStandardEditActionsP", "insertSegment"]
+- ["So18UISegmentedControlC", "deinit"]
+- !private ["So18UISegmentedControlC", "insertSegment"]
+- ["13UIKitChaining018UISegmentedControlB0P", "Bool"]
+- ["13UIKitChaining018UISegmentedControlB0P", "Int"]
+- ["13UIKitChaining018UISegmentedControlB0P", "String"]
+- ["13UIKitChaining018UISegmentedControlB0P", "UIImage"]
+- !private ["13UIKitChaining018UISegmentedControlB0P", "UISegmentedControl"]
+- ["13UIKitChaining018UISegmentedControlB0P", ""]
+- ["13UIKitChaining018UISegmentedControlB0P", "insertSegment"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "insertSegment"]
+- !private ["So18UITraitEnvironmentP", "insertSegment"]
+- !private ["So23UIUserActivityRestoringP", "insertSegment"]
+- !private ["So6UIViewC", "insertSegment"]
+- !private ["13UIKitChaining06UIViewB8ProtocolP", "insertSegment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertSegment"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "insertSegment"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- "So18UISegmentedControlC"
+- "13UIKitChaining018UISegmentedControlB0P"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "13UIKitChaining06UIViewB8ProtocolP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/armv7.swiftmodule"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/UIKitChaining/UIKitChaining/UIKitChaining.h"
+- "/Users/adelkhaziakhmetov/Documents/XCODE/UIKitChaining/UIKitChaining/build/UIKitChaining.build/Debug-iphoneos/UIKitChaining.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6360355669bee043bd4a7ccef2fd0c23"
